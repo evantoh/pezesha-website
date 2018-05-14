@@ -156,7 +156,7 @@ a, a:hover {
   text-align: center;
   color: #fff;
   font-size: 30px;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 
 }
 .description{
@@ -177,4 +177,31 @@ a, a:hover {
   margin-left: 20%;
   padding-top: 10%;
 
+}
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 8px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+  text-decoration: none;
+  margin-left: 20%;	
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
 }
