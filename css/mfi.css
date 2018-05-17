@@ -1,0 +1,264 @@
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.second-div{
+  margin-left: 2%;
+}
+footer {
+  background:#191919;
+  color:#fff;
+  margin:0;
+  padding:3%;
+  font-family: 'Open Sans', sans-serif;
+}
+.centered {
+max-width:1000px;
+margin:0 auto;
+display:flex;
+justify-content:space-between;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+}
+.footer-logo {
+width:20%;
+}
+      
+img.logo {
+  padding:30px 20px 10px 20px;
+  max-width:100%;
+}
+
+.footer-navigation {
+width:60%;
+}
+.footer-links-holder {
+width: 33.33333%;
+position: relative;
+float: left;
+margin: 0;
+}
+
+.footer-links {
+margin:0;
+padding:0;
+list-style:none;
+-webkit-transition: max-height .5s;
+transition: max-height .5s;
+}
+.bottom-bar {
+position:relative;
+text-align:center;
+font-size:.8em;
+text-transform:uppercase;
+background:#000;
+padding:15px 0;
+}
+
+Responsive Tablet Sizes
+
+body {
+margin:0;
+} 
+
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+html footer{
+color:#fff;
+
+}
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+margin: 0;
+padding: 5px;
+}
+
+.socialbtns li {
+list-style: none outside none;
+display: inline-block;
+}
+
+.socialbtns .fa {
+width: 40px;
+height: 28px;
+color: #000;
+background-color: #FFF;
+border: 1px solid #000;
+padding-top: 12px;
+border-radius: 22px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+-o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+color: #FFF;
+background-color: #000;
+border: 1px solid #000;
+}
+.logo-image img{
+height: 2%;
+
+}
+.logo-image img {
+max-height: 60px;
+max-width: none;
+}
+
+.logo-image img {
+margin: 0;
+/* position: relative; */
+top: 4px;
+}
+.first-slide{
+text-align: center;
+color: #fff;
+font-size: 20px;
+margin-bottom: 8%;
+font-family: serif;
+}
+
+.description{
+font-size: 25px;
+color: #1b1616;
+margin-left: 20%;
+margin-top: 8%;
+font-family: serif;
+
+}
+.description2{
+font-size: 25px;
+color: #1b1616;
+font-family: serif;
+margin-left: 30%;
+}
+.description-sign{
+font-size: 25px;
+color: #1b1616;
+margin-left: 27%;
+padding-top: 10%;
+font-family: serif;
+
+}
+.action-button
+{
+position: relative;
+padding: 10px 40px;
+margin: 0px 10px 8px 0px;
+float: left;
+border-radius: 10px;
+font-family: 'Pacifico', cursive;
+font-size: 25px;
+color: #FFF;
+text-decoration: none;
+margin-left: 20%;	
+}
+
+.blue
+{
+background-color: #3498DB;
+border-bottom: 5px solid #2980B9;
+text-shadow: 0px -2px #2980B9;
+}
+
+.action-button:active
+{
+transform: translate(0px,5px);
+-webkit-transform: translate(0px,5px);
+border-bottom: 1px solid;
+}
+.subscription{
+  color: #FFF;
+  font: 200px;
+
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  float: right;
+}
+.btn1{
+padding:.75rem 2rem;
+border-radius: 0 .25rem .25rem 0;
+border:0;
+
+background: #fff;
+color: #fff;
+font-weight: bold;
+}
+
+.subscribe-button{
+border-radius:5px
+}
+.carousel-inner  a button{
+margin:30px;
+margin-bottom: 50%;
+
+}
+.description-sign card-img-top{
+  height:170px;
+}
+.carousel-caption {
+position: absolute;
+right: 15%;
+bottom: 20px;
+left: 21%;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #fff;
+text-align: center;
+padding: 50px;
+}
+.peer-peer-image{
+  background: #f8f9fa;
+}
+.img-fluid{
+  max-width: 100%;
+  height: 50%;
+  background-position: center;
+  margin: 2%;
+  margin-left: 10%;
+  background: #f8f9fa;
+  margin-top: 4%;
+}
+p {
+margin-top: 0;
+margin-bottom: 1rem;
+text-align: center;
+font-family: serif;
+font-size: 20px;
+}
