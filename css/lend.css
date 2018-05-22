@@ -214,3 +214,10 @@ p{
   padding: 0%;
   font-family: serif;
   }
+  .col-xs-2{
+  
+    
+}
+.col-half-offset{
+    margin-left:4.166666667%
+}
