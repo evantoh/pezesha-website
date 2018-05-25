@@ -11,29 +11,56 @@ body {
   }
 }
 
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #133c31;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color:#00656A;
+    border-radius: 5px;
+}
 
 /* banner carousel */
 
 .banner{
-  height: 450px;
+  height:  600px;
   background-image: url("../assets/images/pezesha_home.png");
   width: 100%;
   background-repeat: no-repeat;
   /*background-size: 100% 100%;*/
   background-size:     cover; 
+  background-position: 50% 50%;
+  margin-top:-15px;
 
 }
 .banner h5{
   position: relative;
   top:30%;
   color: #fff;
+  font-size: 17px;
+}
+.banner h3{
+  position: relative;
+  top: 29%;
+  color: #fff;
+  position: relative;
+  top: 31%;
+  font-family: roboto; 
+  font-weight: 550;
+  /*font-family: serif;*/
+  font-size: 21px;
+
 }
 .banner_action{
   border-style: solid;
   border-color:#fff;
   border-width: 1px;
   border-radius:4px;
-  padding: 10px 15px;   
+  padding: 14px 48px;  
 }
 
 .second-div{
@@ -42,10 +69,20 @@ body {
 /* navigation */
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
+font-size: 15px;
+font-family: roboto;
 }
+
 .navbar{
   background-color: #00656A;
+  height: 120px;
 }
+.content-section-heading h2{
+    font-size: 25px;
+    color: #3B494E;
+    font-family: roboto;
+  }
+
 
 /*Responsiveness for small phones*/
 @media (max-width: 448px) {
@@ -94,9 +131,26 @@ color: #fff;
   .sign-up-paragraph{
     font-size: 16px;
   }
- /* footer{
-    height: 20px;
-  }*/
+  .form-control {
+    margin-left: 20px;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    margin-left: 42px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+  }
+  .subscribebtn {
+    margin-left: 115px;
+    background-color: #26B7D4;
+    background-color: #26B7D4;
+    margin-top: 10px;
+    width: 130px;
+  }
 }
 
 /*Responsiveness for ipad*/
@@ -113,7 +167,7 @@ color: #fff;
 
 
 
-Responsive Tablet Sizes
+/*Responsive Tablet Sizes*/
 
 body {
 margin:0;
@@ -234,6 +288,8 @@ padding: 50px;
    width: 100%;
    position: relative;
    top: 33%;
+    height: 130px;
+    width: 130px;
  }
  #hybrid_aproach_txt{
   float: right;
@@ -256,7 +312,13 @@ padding: 50px;
    margin-top: 60px;
    padding: 60px 0px;
  }
- 
+
+ /*credit scoring link*/
+ .credit-scoring-link{
+  color: #17a2b8;
+  font-size: 16px;
+  text-decoration: none;
+ }
 
 
 #slide-couresel{
@@ -265,10 +327,16 @@ padding: 50px;
   opacity:1.0;
   }
   .sign-up-paragraph{
-  font-size: 15px;
-    font-family: serif;
+  font-size: 17px;
+    font-family: roboto;
     text-align: center;
-    font-weight: 500;
+    font-weight: 550;;
+  }
+  .sign-up-header{
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: 600;
+  color: #3B494E;
   }
 
   h2{
@@ -284,11 +352,11 @@ padding: 50px;
       text-align: center;
     }
     h4{
-      font-size: 20px;
-      font-family: serif;
-      font-weight: 700;
-      color: #12382a;
-      margin: 10%;
+    font-size: 17px;
+    font-family: roboto;
+    font-weight: 700;
+    color:  #3B494E;
+    margin: 13%;
     }
     .btn-secondary:hover {
       color: #fff;
@@ -307,10 +375,6 @@ width:20%;
 footer p {
 margin-top: 0;
 margin-bottom: 0rem;
-}
-
-#arrow-up{
-margin-bottom: 1%;
 }
 .subscribe-button{
 border-radius:5px
@@ -366,11 +430,22 @@ margin: 0;
 padding: 5px;
 }
 p a {
-text-decoration: none;
-text-decoration: none;
-color: #fff;
-font-size: 12px;
-margin: 0%;
-padding: 0%;
-font-family: serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0%;
+    font-family: roboto;
+}
+#subscription p{
+font-size: 18px;
+font-family: roboto;
+}
+.subscribebtn{
+background-color:#26B7D4;
+background-color: #26B7D4;
+margin-top: 10px;
+width: 130px;
+}
+.footer-social-fb{
+
 }
