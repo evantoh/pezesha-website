@@ -7,6 +7,68 @@ body {
   body {
     padding-top: 56px;
   }
+  .investment-img{
+    margin-top: 37px;
+    max-width: 100%;
+  }
+  .peer-peer-banner{
+background-image: url(../assets/images/mfi/mfi-banner.png);
+max-width: 100%;
+height: 421px;
+margin-top: 42px;
+}
+ 
+  .offer-mfi{
+    margin-top: 55px;
+    font-family: ROBOTO;
+    color: ##2e5963;
+    
+  }
+  .offer-mfi-header{
+    font-size: 25px;
+    font-weight: 600;
+  }
+ .offer-mfi-paragraph{
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .offer-inner-paragraph{
+    margin-top: 10px;
+  }
+  .credit-scoring-header{
+    font-family: ROBOTO;
+    font-size:17px;
+  }
+  .credit-scoring-paragraph{
+    font-family: ROBOTO;
+    font-size:17px;
+    text-align: justify;
+  }
+  /*Navigation*/
+.navbar{
+background-color:   #191919;
+ height: 100px;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+font-size: 15px;
+font-family: roboto;
+}
+.navbar-lend{
+  height: 50px;
+  background: #191919;
+  width: 100%;
+  color: white;
+}
+.navbar-lend p{
+  text-align: center;
+  height: 50px;
+  background: #767676;
+  color: white;
+  padding: 1%;
+  font-family: serif;
+  font-size: 15px;
+}
 }
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
@@ -60,13 +122,11 @@ top: 4px;
   background: #f8f9fa;
 }
 .img-fluid{
-  max-width: 100%;
-  height: 50%;
-  background-position: center;
-  margin: 2%;
-  margin-left: 20%;
-  background: #f8f9fa;
-  margin-top: 4%;
+    max-width: 100%;
+    height: 50%;
+    background-position: center; 
+    background: #f8f9fa;
+    margin-top: 1%
 }
 p {
 margin-top: 0;
@@ -89,81 +149,101 @@ font-size: 20px;
   margin: 3%;
   
 }
-
+#offer-img img{
+height: 120px;
+width: 120px;
+}
+#lower-part{
+  margin-top: 90px;
+}
+.credit-scoring-header{
+  font-family: ROBOTO;
+  font-size: 15px;
+  color: #474E53;
+}
+.credit-scoring-paragraph{
+  font-family: ROBOTO;
+  font-size:12px;
+  margin-bottom: 14px;
+}
 /* footer */
 
 .footer-logo {
-  width:20%;
-  }
-  
-  footer p {
-  margin-top: 0;
-  margin-bottom: 0rem;
-  }
-  
-  #arrow-up{
-  margin-bottom: 1%;
-  }
-  .subscribe-button{
-  border-radius:5px
-  }
-  .socialbtns .fa:hover {
-  color: #FFF;
-  background-color: #000;
-  border: 1px solid #000;
-  }
-  
-  .socialbtns li {
-  list-style: none outside none;
-  display: inline-block;
-  }
-  
-  .socialbtns .fa {
-  width: 40px;
-  height: 28px;
-  color: #000;
-  background-color: #FFF;
-  border: 1px solid #000;
-  padding-top: 12px;
-  border-radius: 22px;
-  -moz-border-radius: 22px;
-  -webkit-border-radius: 22px;
-  -o-border-radius: 22px;
-  }
-  .footer-navigation {
-  width:60%;
-  }
-  .footer-links-holder {
-  width: 33.33333%;
-  position: relative;
-  float: left;
-  margin: 0;
-  }
-  
-  .footer-links {
-  margin:0;
-  padding:0;
-  list-style:none;
-  -webkit-transition: max-height .5s;
-  transition: max-height .5s;
-  }
-  footer {
-  background:#191919;
-  color:#fff;
-  margin-top: 2%;
-  padding: 1%;
-  font-family:serif;
-  }
-  .socialbtns, .socialbtns ul, .socialbtns li {
-  margin: 0;
-  padding: 5px;
-  }
-  p a {
-  text-decoration: none;
-  text-decoration: none;
-  color: #fff;
-  font-size: 12px;
-  margin: 0%;
-  padding: 0%;
-  font-family: serif;
-  }
+width:20%;
+}
+
+footer p {
+margin-top: 0;
+margin-bottom: 0rem;
+}
+.subscribe-button{
+border-radius:5px
+}
+.socialbtns .fa:hover {
+color: #FFF;
+background-color: #000;
+border: 1px solid #000;
+}
+
+.socialbtns li {
+list-style: none outside none;
+display: inline-block;
+}
+
+.socialbtns .fa {
+width: 40px;
+height: 28px;
+color: #000;
+background-color: #FFF;
+border: 1px solid #000;
+padding-top: 12px;
+border-radius: 22px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+-o-border-radius: 22px;
+}
+.footer-navigation {
+width:60%;
+}
+.footer-links-holder {
+width: 33.33333%;
+position: relative;
+float: left;
+margin: 0;
+}
+
+.footer-links {
+margin:0;
+padding:0;
+list-style:none;
+-webkit-transition: max-height .5s;
+transition: max-height .5s;
+}
+footer {
+background:#2A424C;
+color:#fff;
+padding-top: 60px;
+font-family:serif;
+margin-top: 30px;
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+margin: 0;
+padding: 5px;
+}
+p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0%;
+    font-family: roboto;
+}
+#subscription p{
+font-size: 18px;
+font-family: roboto;
+}
+.subscribebtn{
+background-color:#26B7D4;
+background-color: #26B7D4;
+margin-top: 10px;
+width: 130px;
+}

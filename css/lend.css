@@ -10,10 +10,6 @@ body {
   }
 }
 
-.navbar-dark .navbar-nav .nav-link {
-color: #fff;
-}
-
 Responsive Tablet Sizes
 
 body {
@@ -27,12 +23,16 @@ box-sizing: border-box;
 }
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
+/*Navigation*/
 .navbar-item a:hover {
 text-decoration: none;
 text-decoration: none;
 color: #fff;
 font-size: 30px;
 font-family: serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
 }
 
 
@@ -57,18 +57,11 @@ color: #fff;
 font-size: 15px;
 font-family: roboto;
 }
-
-
-.subscribe-button{
-border-radius:5px
-}
-
 .navbar-lend{
   height: 50px;
   background: #191919;
   width: 100%;
   color: white;
-  /* margin: 5%; */
 }
 .navbar-lend p{
   text-align: center;
@@ -78,6 +71,11 @@ border-radius:5px
   padding: 1%;
   font-family: serif;
   font-size: 15px;
+}
+
+
+.subscribe-button{
+border-radius:5px
 }
 
 .faq{
@@ -299,6 +297,7 @@ background-position: relative
 font-family: ROBOTO;
 font-size: 14px;
 }
+
 /* footer */
 
 .footer-logo {

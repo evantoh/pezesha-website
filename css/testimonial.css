@@ -65,6 +65,18 @@ body {
   .peer-peer-image{
     background: #f8f9fa;
   }
+  .borrower-banner-header{
+ font-family: ROBOTO;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 65px;
+    text-align: center;
+  }
+  iframe{
+    width: 776px;
+    height: 438px;
+    margin-left: 10px; 
+  }
   .img-fluid{
     max-width: 100%;
     height: 50%;
@@ -101,93 +113,158 @@ body {
 }
 h1{
   text-align:center;
-  font-size: 2.5rem;
-  font-family: serif;
   margin-top: 3%;
+  margin-top: 0%;
+  font-size: 30px;
+  font-family: ROBOTO;
+      font-weight: 600;
+
 }
-#lenders{
-  background: #333;
+/*#lenders{
+  background: #333;*/
 }
 iframe{
   width:70%;
   height: 400px;
   margin-left:20%;
 }
-  
-  /* footer */
-  
-  .footer-logo {
-    width:20%;
-    }
-    
-    footer p {
-    margin-top: 0;
-    margin-bottom: 0rem;
-    }
-    
-    #arrow-up{
-    margin-bottom: 1%;
-    }
-    .subscribe-button{
-    border-radius:5px
-    }
-    .socialbtns .fa:hover {
-    color: #FFF;
-    background-color: #000;
-    border: 1px solid #000;
-    }
-    
-    .socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
-    }
-    
-    .socialbtns .fa {
-    width: 40px;
-    height: 28px;
-    color: #000;
-    background-color: #FFF;
-    border: 1px solid #000;
-    padding-top: 12px;
-    border-radius: 22px;
-    -moz-border-radius: 22px;
-    -webkit-border-radius: 22px;
-    -o-border-radius: 22px;
-    }
-    .footer-navigation {
-    width:60%;
-    }
-    .footer-links-holder {
-    width: 33.33333%;
-    position: relative;
-    float: left;
-    margin: 0;
-    }
-    
-    .footer-links {
-    margin:0;
-    padding:0;
-    list-style:none;
-    -webkit-transition: max-height .5s;
-    transition: max-height .5s;
-    }
-    footer {
-    background:#191919;
-    color:#fff;
-    margin-top: 2%;
-    padding: 1%;
-    font-family:serif;
-    }
-    .socialbtns, .socialbtns ul, .socialbtns li {
-    margin: 0;
-    padding: 5px;
-    }
-    p a {
-    text-decoration: none;
+#testimonials-img{
+margin-top: 27px;
+}
+#testimonials-img img{
+
+margin-top: 12px;
+}
+.borrowers-paragrapgh{
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: ROBOTO;
+      text-align: justify;
+}
+
+/*lenders testimonials*/
+#lenders-testimonial{
+  background: #F2F2F2;
+  max-width: 100%;
+}
+.lender-header{
+  font-family: ROBOTO;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.lenders-paragraph{
+  font-family: ROBOTO;
+  font-size:14px;
+  margin-top: 35px;
+  text-align: justify;
+}
+
+/*Navigation*/
+.navbar{
+background-color:   #191919;
+ height: 100px;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+font-size: 15px;
+font-family: roboto;
+}
+.navbar-lend{
+  height: 50px;
+  background: #191919;
+  width: 100%;
+  color: white;
+}
+.navbar-lend p{
+  text-align: center;
+  height: 50px;
+  background: #767676;
+  color: white;
+  padding: 1%;
+  font-family: serif;
+  font-size: 15px;
+}
+
+   
+/* footer */
+
+.footer-logo {
+width:20%;
+}
+
+footer p {
+margin-top: 0;
+margin-bottom: 0rem;
+}
+.subscribe-button{
+border-radius:5px
+}
+.socialbtns .fa:hover {
+color: #FFF;
+background-color: #000;
+border: 1px solid #000;
+}
+
+.socialbtns li {
+list-style: none outside none;
+display: inline-block;
+}
+
+.socialbtns .fa {
+width: 40px;
+height: 28px;
+color: #000;
+background-color: #FFF;
+border: 1px solid #000;
+padding-top: 12px;
+border-radius: 22px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+-o-border-radius: 22px;
+}
+.footer-navigation {
+width:60%;
+}
+.footer-links-holder {
+width: 33.33333%;
+position: relative;
+float: left;
+margin: 0;
+}
+
+.footer-links {
+margin:0;
+padding:0;
+list-style:none;
+-webkit-transition: max-height .5s;
+transition: max-height .5s;
+}
+footer {
+background:#2A424C;
+color:#fff;
+padding-top: 60px;
+font-family:serif;
+margin-top: 30px;
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+margin: 0;
+padding: 5px;
+}
+p a {
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
-    margin: 0%;
+    font-size: 16px;
     padding: 0%;
-    font-family: serif;
-    }
+    font-family: roboto;
+}
+#subscription p{
+font-size: 18px;
+font-family: roboto;
+}
+.subscribebtn{
+background-color:#26B7D4;
+background-color: #26B7D4;
+margin-top: 10px;
+width: 130px;
+}

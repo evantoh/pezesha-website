@@ -1,186 +1,298 @@
 
 body {
-    padding-top: 54px;
-  }
-  
-  @media (min-width: 992px) {
-    body {
-      padding-top: 56px;
-      background-color: azure;
-    }
-  }
-  .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-  }
-  
-  Responsive Tablet Sizes
-  
-  body {
-  margin:0;
-  } 
-  
-  * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  }
-  
-  @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-  
-  a, a:hover {
-  text-decoration: none;
-  }
-  
-  .logo-image img {
-  max-height: 60px;
-  max-width: none;
-   margin: 0;
-  /* position: relative; */
-  top: 4px;
-  margin: 0;
-  /* position: relative; */
-  top: 4px;
-  }
-  .description2{
-  font-size: 25px;
-  color: #1b1616;
-  font-family: serif;
-  text-align: center;
-  }
-  h1{
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-.credit-score {
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-align: center
+  padding-top: 54px;
 }
-  .subscription{
-    color: #FFF;
-    font: 200px;
-  
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
   }
-  .img-fluid {
+  .investment-img{
+    margin-top: 37px;
     max-width: 100%;
-    height: auto;
-    margin-top: 7%;
+  }
+  /*borrow banner*/
+  .peer-peer-banner{
+background-image: url(../assets/images/borrow/borrow-banner.png);
+max-width: 100%;
+margin-top: 42px;
+height: 460px;
+}
+ 
+
+ h3{
+  text-align: center;
+  font-family: roboto;
+  font-size:20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+p{
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+.benefit-borrow{
+  text-align: center;
+  font-family: roboto;
+  font-size:20px;
+ /* margin-top: 30px;*/
+  margin-bottom: 10px;
+  font-weight: 600;
+
+}
+/* benefits borrowing pezesha images*/
+#offer-img img{
+height: 125px;
+width: 125px;
+margin-top: 20px;
+margin-left: 30px;
+}
+#offer-img2 img{
+height: 125px;
+width: 125px;
+margin-top: 40px;
+
+}
+#offer-img3 img{
+height: 125px;
+width: 125px;
+margin-top: 40px;
+margin-left: 30px;
+
+}
+ 
+  .credit-scoring-header{
+    font-family: ROBOTO;
+    font-size:17px;
+  }
+  .credit-scoring-paragraph{
+    font-family: ROBOTO;
+    font-size:17px;
+    text-align: justify;
   }
 
-  
-  .subscribe-button{
-  border-radius:5px
-  }
-  .offer p{
-    font-family: serif;
-    text-align: center;
-    /* margin: -8%; */
-    padding: -21px;
-    margin-top: -9%;
-    margin-left: -10%;
+ /* getting started patascore*/
+ .started-patascore{
+  background-image: url(../assets/images/borrow/started-patascore.png);
+  max-width: 97%;
+margin-top: 42px;
+height: 450px;
+ }
+  .started-patascore-score{
+  background-image: url(../assets/images/borrow/credit-score-bottom.png);
+  max-width: 94%;
+margin-top: 42px;
+height: 290px;
+ }
 
-  }
-  .offer1 p{
-    font-family: serif;
-    text-align: center;
-    padding: -21px;
-    margin-top: -10%;
-    margin-left: 15%;
+  /*Navigation*/
+.navbar{
+background-color:   #191919;
+ height: 100px;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+font-size: 15px;
+font-family: roboto;
+}
+.navbar-lend{
+  height: 50px;
+  background: #191919;
+  width: 100%;
+  color: white;
+}
+.navbar-lend p{
+  text-align: center;
+  height: 50px;
+  background: #767676;
+  color: white;
+  padding: 1%;
+  font-family: serif;
+  font-size: 15px;
+}
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+}
+      
+img.logo {
+  padding:30px 20px 10px 20px;
+  max-width:100%;
+}
 
-  }
-  .offer2 p{
-    font-family: serif;
-    text-align: center;
-    padding: -21px;
-    margin-top: -10%;
-    margin-left: 15%;
+Responsive Tablet Sizes
 
-  }
-  .img-fluid-offer {
+body {
+margin:0;
+} 
+
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+html footer{
+color:#fff;
+
+}
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+text-decoration: none;
+}
+.logo-image img{
+height: 2%;
+
+}
+.logo-image img {
+max-height: 60px;
+max-width: none;
+margin: 0;
+/* position: relative; */
+top: 4px;
+}
+
+.subscription{
+  color: #FFF;
+  font: 200px;
+
+}
+
+.peer-peer-image{
+  background: #f8f9fa;
+}
+.img-fluid{
     max-width: 100%;
-    height: auto;
-    margin-top: 2%;
     height: 50%;
-    width: 10%;
-  }
-  .web-app img{
-    margin:15%;
-  }
+    background-position: center; 
+    background: #f8f9fa;
+    margin-top: 1%
+}
+p {
+margin-top: 0;
+margin-bottom: 1rem;
+text-align: center;
+font-family: serif;
+font-size: 20px;
+}
+.mfi-data p{
+  margin: 0%;
+  font-family: serif;
+  font-size: 18px;
+}
+.mfi-data h3{
+  margin: 3%;
+  font-family: serif;
+  font-size: 15px;
+}
+.mfi-data img{
+  margin: 3%;
+  
+}
 
+
+#credit-scoring-content{
+margin-top: 8%;
+}
+#lower-part{
+  margin-top: 90px;
+}
+.credit-scoring-header{
+  font-family: ROBOTO;
+  font-size: 17px;
+  color: #474E53;
+  margin: 4%;
+
+}
+.credit-scoring-paragraph{
+  font-family: ROBOTO;
+  font-size:15px;
+  margin-bottom: 14px;
+}
+.pezesha-link-loan{
+  color: blue;
+}
 /* footer */
 
 .footer-logo {
-  width:20%;
-  }
-  
-  footer p {
-  margin-top: 0;
-  margin-bottom: 0rem;
-  }
-  
-  #arrow-up{
-  margin-bottom: 1%;
-  }
-  .subscribe-button{
-  border-radius:5px
-  }
-  .socialbtns .fa:hover {
-  color: #FFF;
-  background-color: #000;
-  border: 1px solid #000;
-  }
-  
-  .socialbtns li {
-  list-style: none outside none;
-  display: inline-block;
-  }
-  
-  .socialbtns .fa {
-  width: 40px;
-  height: 28px;
-  color: #000;
-  background-color: #FFF;
-  border: 1px solid #000;
-  padding-top: 12px;
-  border-radius: 22px;
-  -moz-border-radius: 22px;
-  -webkit-border-radius: 22px;
-  -o-border-radius: 22px;
-  }
-  .footer-navigation {
-  width:60%;
-  }
-  .footer-links-holder {
-  width: 33.33333%;
-  position: relative;
-  float: left;
-  margin: 0;
-  }
-  
-  .footer-links {
-  margin:0;
-  padding:0;
-  list-style:none;
-  -webkit-transition: max-height .5s;
-  transition: max-height .5s;
-  }
-  footer {
-  background:#191919;
-  color:#fff;
-  margin-top: 2%;
-  padding: 1%;
-  font-family:serif;
-  }
-  .socialbtns, .socialbtns ul, .socialbtns li {
-  margin: 0;
-  padding: 5px;
-  }
-  p a {
-  text-decoration: none;
-  text-decoration: none;
-  color: #fff;
-  font-size: 12px;
-  margin: 0%;
-  padding: 0%;
-  font-family: serif;
-  }
+width:20%;
+}
+
+footer p {
+margin-top: 0;
+margin-bottom: 0rem;
+}
+.subscribe-button{
+border-radius:5px
+}
+.socialbtns .fa:hover {
+color: #FFF;
+background-color: #000;
+border: 1px solid #000;
+}
+
+.socialbtns li {
+list-style: none outside none;
+display: inline-block;
+}
+
+.socialbtns .fa {
+width: 40px;
+height: 28px;
+color: #000;
+background-color: #FFF;
+border: 1px solid #000;
+padding-top: 12px;
+border-radius: 22px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+-o-border-radius: 22px;
+}
+.footer-navigation {
+width:60%;
+}
+.footer-links-holder {
+width: 33.33333%;
+position: relative;
+float: left;
+margin: 0;
+}
+
+.footer-links {
+margin:0;
+padding:0;
+list-style:none;
+-webkit-transition: max-height .5s;
+transition: max-height .5s;
+}
+footer {
+background:#2A424C;
+color:#fff;
+padding-top: 60px;
+font-family:serif;
+margin-top: 30px;
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+margin: 0;
+padding: 5px;
+}
+p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0%;
+    font-family: roboto;
+}
+#subscription p{
+font-size: 18px;
+font-family: roboto;
+}
+.subscribebtn{
+background-color:#26B7D4;
+background-color: #26B7D4;
+margin-top: 10px;
+width: 130px;
+}
