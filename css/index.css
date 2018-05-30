@@ -49,7 +49,7 @@ body {
   color: #fff;
   position: relative;
   top: 31%;
-  font-family: roboto; 
+  
   font-weight: 550;
   /*font-family: serif;*/
   font-size: 21px;
@@ -70,7 +70,6 @@ body {
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
 font-size: 15px;
-font-family: roboto;
 }
 
 .navbar{
@@ -80,8 +79,11 @@ font-family: roboto;
 .content-section-heading h2{
     font-size: 25px;
     color: #3B494E;
-    font-family: roboto;
   }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background: #006C6E;
+}
 
 
 /*Responsiveness for small phones*/
@@ -186,7 +188,6 @@ text-decoration: none;
 text-decoration: none;
 color: #fff;
 font-size: 30px;
-font-family: roboto;
 }
 
 
@@ -305,6 +306,7 @@ padding: 50px;
  #call_to_action button{
    background-color: 	#5DBCD2;
    border: 0px;
+   font-size: 15px;
  }
 
  #call_to_action {
@@ -327,14 +329,12 @@ padding: 50px;
   opacity:1.0;
   }
   .sign-up-paragraph{
-  font-size: 17px;
-    font-family: roboto;
+  font-size: 15px;
     text-align: center;
     font-weight: 550;;
   }
   .sign-up-header{
-  font-family: roboto;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   color: #3B494E;
   }
@@ -353,10 +353,9 @@ padding: 50px;
     }
     h4{
     font-size: 17px;
-    font-family: roboto;
     font-weight: 700;
     color:  #3B494E;
-    margin: 13%;
+    margin-top: 75px;
     }
     .btn-secondary:hover {
       color: #fff;
@@ -432,13 +431,12 @@ padding: 5px;
 p a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0%;
-    font-family: roboto;
+  
 }
 #subscription p{
 font-size: 18px;
-font-family: roboto;
 }
 .subscribebtn{
 background-color:#26B7D4;

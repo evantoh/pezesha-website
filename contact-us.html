@@ -8,48 +8,42 @@
     <title>Pezesha website</title>
 
     <!-- Bootstrap core CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/contact-us.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body{
+      font-family:"Roboto";}
+    </style>
   </head>
   <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"> 
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
       <div class="container"> 
         <div class="logo-image">  
           <a class="navbar-brand " id="navbar-img" href="index.html">
             <img src="assets/images/pezesha-logo.png" alt="pezesha img">
           </a>
-        </div>
-       
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        </div>   
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="    #navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">  
           <ul class="navbar-nav ml-auto"> 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Lend
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                 <a class="dropdown-item" href="lend.html">Individuals</a>
                 <a class="dropdown-item" href="mfi.html">MFI's</a>
+                <a class="dropdown-item" href="chama_cooperative.html">Chama & Cooperative</a>
               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="borrow.html">Borrow</a>
-            </li>
-            <li class="nav-item dropdown"> 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Chama
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="chama_cooperative.html">Cooperative</a>
-                <a class="dropdown-item" href="chama_cooperative.html">Saccos</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="agent.html">Be an Agent</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://patascore.com/">Patascore</a>
@@ -66,89 +60,117 @@
       </div>
     </nav>
 
-    <form action="">
-    <h1>Get in Touch</h1>
-    <p>Send us a message using the form below.</p>
-    <div id="logo" class="icon-ic-drafts-24px"></div>
-    <input name="name" type="text"
-    placeholder=" your Name(Required)" id="name" required/>
-    
-    <input name=" Your Email(Required)" type="email"
-    placeholder="Email" id="email" required/>
+    <div class="container">
+      <div class="row" id="contact-us-page">
+        <div class="col-md-8">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="https://script.google.com/macros/s/AKfycby8Egw0YfU9vJVJ2RhtodeCvKkqq4lhb8lP52Kc7Kr9Bh2keHjO/exec" method="post">
+            <fieldset>
+              <legend class="text-center">Contact us</legend>
+      
+              <!-- Name input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="name" style="text-align: center;">Name</label>
+                <div class="col-md-9">
+                  <input id="name" name="name" type="text" placeholder="Your name(Required)" class="form-control">
+                </div>
+              </div>
 
-    <input name="Phone  number" type=""
-    placeholder="Phone Number" id="phone-number" required/>
+              <!-- Email input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                <div class="col-md-9">
+                  <input id="email" name="email" type="text" placeholder="Your email(Required)" class="form-control">
+                </div>
+              </div>
+
+              <!-- phone number input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="number">Phone Number</label>
+                <div class="col-md-9">
+                  <input id="number" name="name" type="text" placeholder="Phone Number" class="form-control">
+                </div>
+              </div>
+      
+              <!-- Message body -->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="message">Your message</label>
+                <div class="col-md-9">
+                  <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                </div>
     
-    <textarea name="text" placeholder="Reason"></textarea>
+      
+              <!-- Form actions -->
+              <div class="form-group">
+                <div class="col-md-12 text-right">
+                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+              </div>
+            </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     
-    <div class="checkbox"> <lable><input type="checkbox" class="human_veryfication" />Yes, I'm Human!</lable></div>
-    
-    <input type="submit" value="Send" id="button-blue"/>
-    <h6 style="text-align:center;margin-top:2%;">0798 985 054 or 0732 625 548 <br/>hello@pezesha.com</h6>
-    </form>
 
     
-        <footer>
+
+    
+  
+
+  
+   
+
+    <footer>
       <div class="container"> 
-        <div class="row" id=""> 
+        <div class="row">
           <div class="col-md-3">  
-            <p><a href="#">About us </a></p>
-            <p><a href="#">Why us </a></p>
-            <p><a href="#">Our Values</a></p>
-            <p><a href="">Our partners</a></p>
+            <p><a href="about.html">Why us </a></p>
+            <p><a href="about.html">Our Values</a></p>
+            <p><a href="about.html">Our partners </a></p>
+            <p><a href="about.html">Our people</a></p>
           </div>
           <div class="col-md-3">  
-            <p><a href="#">Why we exist </a></p>
-            <p><a href="#">Our mission</a></p>
-            <p><a href="">Our core values</a></p>
-            <p><a href="">Our people</a></p>
+            <p><a href="about-us.html">About </a></p>
+            <p><a href="jobs.html">Jobs </a></p>
+            <p><a href="testimonial.html">Testimonials</a></p>
+            <p><a href="about.html">Blog</a></p>
           </div>
           <div class="col-md-3">  
-            <p><a href="#">Jobs </a></p>
-            <p><a href="#">Testimonials</a></p>
-            <p><a href="#">Blog</a></p>
-            <p><a href="#">Terms of Use</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><a href="#">Subscribe to our newsletter </a></p>
             
+            <p><a href="testimonial.html">hello@pezesha.com</a></p>
+            <p><a href="#">Terms of Use</a></p>
+            <!-- <ul> 
+              <li><a href="www.facebook.com" class="fab fa-facebook-f"></a></li>
+              <li><a href="www.twitter.com" class="fab fa-twitter"></a></li>
+            </ul> -->
+            <p><a href="#">Privacy policy</a></p>
+          </div>
+          <div class="col-md-3" id="subscription">
+            <p>Subscribe to our newsletter</p>
+            <form class="form-inline" action="/action_page.php">  
+              <div class="form-group">  
+                <input type="email" placeholder="Enter your email"class="form-control" id="email">
+              </div>
+              <button type="submit" class="btn btn-default subscribebtn">Subscribe</button>
+            </form>
           </div>
         </div>
         </div>  
         <div align="center" class="socialbtns"> 
-          <ul> 
-            <li><a href="www.facebook.com" class="fab fa-facebook-f"></a></li>
-            <li><a href="www.twitter.com" class="fab fa-twitter"></a></li>
-            <li><a href="#" class="fab fa-linkedin-in"></a></li>
-          </ul>
           <div class="container"> 
             <p class="m-0 text-center text-white">Copyright &copy; pezesha 2018</p>
           </div>
         </div>
-        
-        <script type="text/javascript">
-          // When the user scrolls down 400px from the top of the document, show the button
-          window.onscroll = function() {
-            scrollFunction()
-          };
-          function scrollFunction() {
-            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-              document.getElementById("arrow-up").style.display = "block";
-            } else {
-              document.getElementById("arrow-up").style.display = "none";
-            }
-          }
-          // When the user clicks on the button, scroll to the top of the document
-          function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-          }
-        </script>
       </div>
     </footer>
-    
+  
+  
     <script src="assets/jquery/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/jquery/jquery.min.js"></script>
+
   </body>
 </html>

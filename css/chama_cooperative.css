@@ -22,14 +22,12 @@ height: 460px;
 
  .header-offer{
   text-align: center;
-  font-family: roboto;
   font-size:15px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
   .offer-mfi{
     margin-top: 55px;
-    font-family: ROBOTO;
     color: ##2e5963;
     
   }
@@ -38,20 +36,22 @@ height: 460px;
     font-weight: 600;
   }
  .offer-mfi-paragraph{
-    font-size: 17px;
     font-weight: 500;
+    font-size: 15px;
   }
   .offer-inner-paragraph{
     margin-top: 10px;
   }
   .credit-scoring-header{
-    font-family: ROBOTO;
     font-size:17px;
   }
   .credit-scoring-paragraph{
-    font-family: ROBOTO;
     font-size:17px;
     text-align: justify;
+  }
+  .what-we-offer-header{
+    font-size: 25px;
+    font-weight: 600;
   }
   /*Navigation*/
 .navbar{
@@ -61,13 +61,16 @@ background-color:   #191919;
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
 font-size: 15px;
-font-family: roboto;
 }
 .navbar-lend{
   height: 50px;
   background: #191919;
   width: 100%;
   color: white;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background: #006768;
 }
 .navbar-lend p{
   text-align: center;
@@ -170,12 +173,10 @@ margin-top: 8%;
   margin-top: 90px;
 }
 .credit-scoring-header{
-  font-family: ROBOTO;
   font-size: 17px;
   color: #474E53;
 }
 .credit-scoring-paragraph{
-  font-family: ROBOTO;
   font-size:15px;
  }
 /* footer */
@@ -245,13 +246,11 @@ padding: 5px;
 p a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0%;
-    font-family: roboto;
 }
 #subscription p{
 font-size: 18px;
-font-family: roboto;
 }
 .subscribebtn{
 background-color:#26B7D4;

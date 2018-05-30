@@ -8,9 +8,15 @@
     <title>Pezesha website</title>
 
     <!-- Bootstrap core CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/lend.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body{
+      font-family: Roboto;
+    }
+    </style>
   </head>
   <body>
     <!-- Navigation -->
@@ -63,15 +69,13 @@
     <div class="container text-center">   
       <div class="lend-section">
         <div class="row">
-          <div class="col-md-1 col-sm-3 col-xs-6 " >
-          </div>
-          <div class="col-md-2 col-sm-6 col-xs-6" >
+          <div class="col-md-3 col-sm-6 col-xs-6" >
             <img class="rounded-circle lend-img" src="assets/images/lend/individual.png" alt="">
             <h3 class="lend-section-headers">Individuals</h3>
             <p class="lend-section-paragraphs">
               Invest as low as $30 to fund a loan on our marketplace   and earn at least 36% returns per year.<br> Diversify your portfolio beyond stocks, bonds, fixed deposits and saving account.
             </p>
-            <a href="">Learn more</a>
+            <a class="lend-learn-more" href="">Learn more</a>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6">  
             <img class="rounded-circle  lend-img" src="assets/images/lend/mfi.png" alt="">
@@ -83,7 +87,7 @@
               KYC, credit scoring, P2P payments to loans
               management.
             </p>
-            <a href="">Learn more</a>
+            <a class="lend-learn-more" href="">Learn more</a>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6 " >
             <img class="rounded-circle lend-img" src="assets/images/lend/chama-cooperative.png" alt="">
@@ -97,9 +101,9 @@
               credit score and lend to their members
               through our simple platform
             </p>
-            <a href="">Learn more</a>
+            <a class="lend-learn-more" href="">Learn more</a>
           </div>
-          <div class="col-md-2 col-sm-3 col-xs-6">  
+          <div class="col-md-3 col-sm-3 col-xs-6">  
             <img class="rounded-circle lend-img" src="assets/images/lend/philanthropic-lenders.png" alt="">
             <h3 class="lend-section-headers">Philanthropic lenders</h3>
             <p class="lend-section-paragraphs">
@@ -111,8 +115,6 @@
               please reach out to us at
               <a href="" style="color:blue;">hello@pezesha.com</a>
             </p>
-          </div>
-          <div class="col-md-1 col-sm-3 col-xs-6 " >
           </div>  
         </div>
       </div>
@@ -145,7 +147,7 @@
         <div class="row">
           <div class="col-md-2">
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="maxise-returns">
               <a href="#"><img  src="assets/images/why-pezesha/maximise-returns.png" alt=""></a>
             </div>
@@ -157,9 +159,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-1">
-          </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="maxise-returns">
               <a href="#"><img  src="assets/images/why-pezesha/borrow-screening.png" alt=""></a>
             </div>
@@ -175,9 +175,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-1">
-          </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="maxise-returns">
               <a href="#"><img  src="assets/images/why-pezesha/diversified-lending.png" alt=""></a>
             </div>
@@ -242,8 +240,7 @@
           </div>
           <div class="col-md-8">
            <h3>As with any investment there are associated risks, we therefore use effective
-              approaches that minimizes investor’s risk<br>
-              and maximizes their return including but not limited to the following ways:
+              approaches that minimizes investor’s risk and maximizes their return including but not limited to the following ways:
             </h3> 
           </div>
           <div class="col-md-2">
@@ -251,10 +248,10 @@
         </div>
 
         <div class="row">
-          <div class="col-md-2">
-          </div>
+          <!-- <div class="col-md-2">
+          </div> -->
          
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="maxise-returns">
               <a href="#"><img  src="assets/images/risks/risky-policy.png" alt=""></a>
             </div>
@@ -269,7 +266,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="maxise-returns">
               <a href="#"><img  src="assets/images/risks/recovery-policy.png" alt=""></a>
             </div>
@@ -285,7 +282,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="maxise-returns">
               <a href="#"><img  src="assets/images/risks/partial-lending.png" alt=""></a>
             </div>
@@ -297,7 +294,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="maxise-returns">
               <a href="#"><img  src="assets/images/risks/consumer-protection.png" alt=""></a>
             </div>
@@ -312,8 +309,8 @@
               </p>
             </div>
           </div>
-          <div class="col-md-2">
-          </div>
+          <!-- <div class="col-md-2">
+          </div> -->
         </div>
       </div>
       <div class="row">
@@ -340,7 +337,7 @@
               <p>&#10004;Minimum investment is $30</p>
             </div>
             <div class="btn-left">
-            <p>START LENDING</p>
+              <a href=""><p>START LENDING</p></a>  
           </div>
           </div>
         </div>
@@ -411,7 +408,7 @@
       </div>
       <div class="col-md-2">
         <h6 class="lender-process-header">Lender dashboard</h6>
-        <div class="img-lending-process"">
+        <div class="img-lending-process">
           <a href="#"><img  src="assets/images/lenders-process/process-04.png" alt=""></a>
         </div>
         <div class="notifications-paragragh">
@@ -446,14 +443,14 @@
 
 
     <div class="container"> 
-      <h2 style="text-align: center;">FAQs</h2>
+      <h2 style="text-align: center;font-family: ROBOTO;font-size: 25px;">FAQs</h2>
       <div class="row">
         <div class="col-md-2"></div>
         <div class="panel-group" id="accordion">  
           <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                 What is Pezesha?(expand)
               </a>
             </h4>
@@ -469,7 +466,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                 What makes Pezesha different from other alternative and retail lenders?
               </a>
             </h4>
@@ -487,7 +484,7 @@
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
                 What are the benefits of being a lender on Pezesha?
               </a>
             </h4>
@@ -504,44 +501,47 @@
         <div class="panel panel-default"> 
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Give an example of how Pezesha works</a>
+            <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Give an example of how Pezesha works</a>
           </h4>
         </div>
         <div id="collapse4" class="panel-collapse collapse">  
-          <div class="panel-body">Mary needs Ksh. 5,000 ($50) to buy weekly stock for her small kiosk in a low income neighbourhood in Nairobi. She does not have the cash available to buy her products and therefore has to temporarily close, despite knowing she would have Ksh. 10,000 in a month’s time from her revenues.
-              Through our mobile platform, Mary requests a loan from Pezesha, who conduct an automated credit score in 30 seconds through robust verified data sources, and then sources the amount from Kenyans with idle/spare capital.
-              Mary can then grow her business, and improve her credit rating, paying back with mobile money.</div>
+          <div class="panel-body">Mary needs Ksh. 5,000 ($50) to buy weekly stock for her small kiosk 
+              in a low income neighbourhood in Nairobi. She does not have the cash available to buy her products and therefore has to temporarily close, despite knowing she would have Ksh. 10,000 in a month’s time from her revenues.
+              Through our mobile platform, Mary requests a loan from Pezesha, who conduct an automated credit score in 30 seconds through robust verified data sources, and then sources the amount from Kenyans with idle/spare capital.Mary can then grow her business, and improve her credit rating, paying back with mobile money
+            </div>
           </div>
         </div>
         <div class="panel panel-default"> 
           <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">What is the process of becoming a lender on Pezesha?</a>
+            <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse5">What is the process of becoming a lender on Pezesha?</a>
           </h4>
           </div>  
           <div id="collapse5" class="panel-collapse collapse">
           <div class="panel-body">It’s an easy process.
               First fill in our Expression of Interest (EOI) form at https://goo.gl/0DRU3X
-              You can then choose to be either a Bronze Lender or a Silver Lender.  A Silver lender lends by yourself managing portfolio through mobile app. For a bronze lender Pezesha manages portfolio on your behalf.</div>
-          </div>
-        </div>
-        <div class="panel panel-default"> 
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Who is a Silver Lender(Preferred Option) ?</a>
-            </h4>
-          </div>  
-          <div id="collapse6" class="panel-collapse collapse">
-            <div class="panel-body">Lend directly through the platform by downloading our app by the name Pezesha from the App store.
-             The following Terms & Conditions (T&Cs) abide https://goo.gl/mLnuae. 
-             If you have any questions about it please contact us directly.
+              You can then choose to be either a Bronze Lender or a Silver Lender.  A Silver lender lends by yourself managing portfolio through mobile app. For a bronze lender Pezesha manages portfolio on your behalf.
             </div>
           </div>
         </div>
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Who is a Bronze Lender?</a>
+              <a  class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse6">Who is a Silver Lender(Preferred Option) ?</a>
+            </h4>
+          </div>  
+          <div id="collapse6" class="panel-collapse collapse">
+            <div class="panel-body">Lend directly through the platform by downloading our app by the 
+              name Pezesha from the App store.
+              The following Terms & Conditions (T&Cs) abide https://goo.gl/mLnuae. 
+              If you have any questions about it please contact us directly.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default"> 
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse7">Who is a Bronze Lender?</a>
             </h4>
           </div>  
           <div id="collapse7" class="panel-collapse collapse">
@@ -554,7 +554,7 @@
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">How do I top up and withdraw funds on the Pezesha platform?</a>
+              <a class="faq-paragraph"  data-toggle="collapse" data-parent="#accordion" href="#collapse8">How do I top up and withdraw funds on the Pezesha platform?</a>
             </h4>
           </div>  
           <div id="collapse8" class="panel-collapse collapse">
@@ -568,7 +568,7 @@
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">What is the minimum and maximum amount I can deposit?</a>
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse8">What is the minimum and maximum amount I can deposit?</a>
             </h4>
           </div>  
           <div id="collapse8" class="panel-collapse collapse">
@@ -580,7 +580,7 @@
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Will you always be taking in new lenders?</a>
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse9">Will you always be taking in new lenders?</a>
             </h4>
           </div>  
           <div id="collapse9" class="panel-collapse collapse">
@@ -592,7 +592,7 @@
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">What is the repayment process?</a>
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse10">What is the repayment process?</a>
             </h4>
           </div>  
           <div id="collapse10" class="panel-collapse collapse">
@@ -606,7 +606,7 @@
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">What are the risks involved?</a>
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse11">What are the risks involved?</a>
             </h4>
           </div>  
           <div id="collapse11" class="panel-collapse collapse">
@@ -621,7 +621,7 @@
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">How do you assess whether a borrower is creditworthy or not?</a>
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse12">How do you assess whether a borrower is creditworthy or not?</a>
             </h4>
           </div>  
           <div id="collapse12" class="panel-collapse collapse">
@@ -636,7 +636,7 @@
         <div class="panel panel-default"> 
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">How do you ensure consumer protection?</a>
+              <a class="faq-paragraph" data-toggle="collapse" data-parent="#accordion" href="#collapse13">How do you ensure consumer protection?</a>
             </h4>
           </div>  
           <div id="collapse13" class="panel-collapse collapse">
@@ -662,10 +662,10 @@
             <p><a href="about.html">Why us </a></p>
             <p><a href="about.html">Our Values</a></p>
             <p><a href="about.html">Our partners </a></p>
-            <p><a href="about.html">Our partners</a></p>
+            <p><a href="about.html">Our people</a></p>
           </div>
           <div class="col-md-3">  
-            <p><a href="#">About </a></p>
+            <p><a href="about.html">About </a></p>
             <p><a href="jobs.html">Jobs </a></p>
             <p><a href="testimonial.html">Testimonials</a></p>
             <p><a href="about.html">Blog</a></p>

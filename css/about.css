@@ -85,7 +85,6 @@ body {
      margin: 11%;
     /* font-family: serif; */
     font-size: 18px;
-    font-family: ROBOTO;
     font-weight: 500;
   }
   .mfi-data img{
@@ -99,7 +98,6 @@ body {
 .full-time-header{
   text-align: center;
   font-size: 15px;
-  font-family: ROBOTO;
  margin: 5%;
 }
 .view-posting{
@@ -123,7 +121,6 @@ background-color:   #191919;
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
 font-size: 15px;
-font-family: roboto;
 }
 .navbar-lend{
   height: 50px;
@@ -140,10 +137,12 @@ font-family: roboto;
   font-family: serif;
   font-size: 15px;
 }
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background: #006768;
 }
-.navbar-dark .navbar-nav .nav-link {
-color: #fff;
-}
+
 /*Navigation end*/
 
 .banner{
@@ -157,26 +156,47 @@ color: #fff;
   margin-top:-15px;
 
 }
-/*jobs page content*/
-.content-section-heading{
-  margin-top: 20px;
-  margin-top: 35px;
-  font-family: ROBOTO;
-  font-weight: 600;
+/*why us*/
 }
-.content-section-heading h3{
- font-family: ROBOTO;
-  font-weight: 600;
-  font-size: 25px;
+.why-us-header{
+font-size: 25px;
+font-weight: 600;
+color: #000;
+
+}
+.why-us-paragragh{
+font-size:15px;
+text-align: justify;
+}
+
+/*our core values*/
+.core-values-header{
+font-size: 25px;
+padding: 30px;
+font-weight: 600;
+text-align: center;
+}
+.core-values-header2{
+  font-size:17px;
   text-align: center;
 }
-.content-section-heading p{
- font-family: ROBOTO;
-  font-weight: 500;
+.core-values-paragraph{
+  font-size:15px;
+  text-align: justify;
+}
+
+/*core values images*/
+.img-core-values img{
+height: 30px;
+width: 30px;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.our-people{
   font-size: 15px;
-  text-align: center;
-      margin-left: 275px;
-    margin-right: 145px
+  text-align: justify;
 }
 
 
@@ -248,17 +268,49 @@ padding: 5px;
 p a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0%;
-    font-family: roboto;
 }
 #subscription p{
 font-size: 18px;
-font-family: roboto;
 }
 .subscribebtn{
 background-color:#26B7D4;
 background-color: #26B7D4;
 margin-top: 10px;
 width: 130px;
+}
+
+
+/* Tabs*/
+
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+  /*background: #007b5e;*/
+   /* color: #eee;*/
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    /*color: #f3f3f3;*/
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 9px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: black;
+    font-size: 20px;
 }

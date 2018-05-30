@@ -12,35 +12,77 @@ body {
     max-width: 100%;
   }
   .peer-peer-banner{
-background-image: url(../assets/images/mfi/mfi-banner.png);
+/*background-image: url(../assets/images/mfi/mfi-banner.png);*/
 max-width: 100%;
-height: 421px;
+height: 480px;
 margin-top: 42px;
+background-color:#5C9898;
+}
+.demo-mfi{
+  font-size:20px;
+  color: #fff;
+
+}
+.demo-mfi p{
+  font-size:20px;
+  color: #fff;
+  margin-left: 445px;
+}
+.btn-demo{
+height: 20px;
+    width: 20px;
+    border: solid 2px;
+    width: 20px;
+    padding: 9px 40px 10px 40px;
+    border: solid;
+    color: white;
+    border-radius: white;
+    border-color: #fff;
+    margin-left: 70%;
 }
  
+ .mfi-images img{
+ /* width: 200px;
+  height: 200px;*/
+  margin-top: -37px;
+ }
+ .mfi-image2 img{
+ /* width: 200px;
+  height: 200px;*/
+  margin-top: 4px;
+ }
+ .mfi-text{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 195px;
+    margin-right: 170px;
+    margin-top: -4px;
+    color: #fff;
+    font-weight: 600;
+ }
   .offer-mfi{
     margin-top: 55px;
-    font-family: ROBOTO;
     color: ##2e5963;
     
   }
   .offer-mfi-header{
-    font-size: 25px;
-    font-weight: 600;
+  font-size: 17px;
+  font-weight: 600;
   }
  .offer-mfi-paragraph{
-    font-size: 17px;
-    font-weight: 500;
+ font-size: 15px;
+  font-weight: 5;
+  
   }
   .offer-inner-paragraph{
     margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
   }
   .credit-scoring-header{
-    font-family: ROBOTO;
     font-size:17px;
   }
   .credit-scoring-paragraph{
-    font-family: ROBOTO;
     font-size:17px;
     text-align: justify;
   }
@@ -52,7 +94,10 @@ background-color:   #191919;
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
 font-size: 15px;
-font-family: roboto;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background: #006768;
 }
 .navbar-lend{
   height: 50px;
@@ -157,13 +202,11 @@ width: 120px;
   margin-top: 90px;
 }
 .credit-scoring-header{
-  font-family: ROBOTO;
-  font-size: 15px;
+  font-size: 17px;
   color: #474E53;
 }
 .credit-scoring-paragraph{
-  font-family: ROBOTO;
-  font-size:12px;
+  font-size: 15px;
   margin-bottom: 14px;
 }
 /* footer */
@@ -233,13 +276,12 @@ padding: 5px;
 p a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0%;
-    font-family: roboto;
+
 }
 #subscription p{
 font-size: 18px;
-font-family: roboto;
 }
 .subscribebtn{
 background-color:#26B7D4;

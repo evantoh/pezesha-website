@@ -8,11 +8,16 @@
     <title>Pezesha website</title>
 
     <!-- Bootstrap core CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style>
+      body{
+      font-family:"Roboto";}
+    </style>
+  
   </head>
   <body>
     <!-- Navigation -->
@@ -59,44 +64,196 @@
     <section class="banner">
         
     </section>
-
-    <div class="container">
-      <h2>Dynamic Pills</h2>
-      <p>To make the tabs toggleable, add the data-toggle="pill" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
-      <ul class="nav nav-pills">
-        <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
-        <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
-        <li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
-        <li><a data-toggle="pill" href="#menu3">Menu 3</a></li>
-      </ul>
-    
-      <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
-          <h3>HOME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <!-- Tabs -->
+<section id="tabs">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 ">
+        <nav>
+          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#why-us" role="tab" aria-controls="nav-home" aria-selected="true">Why us</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#our-values" role="tab" aria-controls="nav-profile" aria-selected="false">Our values</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#our-people" role="tab" aria-controls="nav-contact" aria-selected="false">Our people</a>
+            <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#our-partners" role="tab" aria-controls="nav-about" aria-selected="false">Our partners</a>
+          </div>
+        </nav>
+        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="why-us" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-4">
+                <h3 class="why-us-header">Why We Exist</h3>
+                <p class="why-us-paragragh">Pezesha comes from combining two Swahili words, Pesa and
+                  Wezesha to mean financial empowerment.
+                  Pezesha exists to give choice, inclusion and affordable digital
+                  part of the formal financial system
+                </p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="why-us-header">Our Mission</h3>
+                <p class="why-us-paragragh">To facilitate meaningful financial inclusion to the underserved
+                  communities through data and financial literacy while matching
+                  lenders with quality borrowers.
+                </p>
+              </div>
+              <div class="col-md-2"></div>
+            </div>.
+          </div>
+          <div class="tab-pane fade" id="our-values" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <h3 class="core-values-header">Core Values</h3>
+            <!-- first row start -->
+            <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-2">
+                <div class="img-core-values">
+                  <img src="assets/images/core-values/integrity.png">
+                </div>
+                <div >
+                  <h3 class="core-values-header2">Integrity</h3>
+                  <p class="core-values-paragraph">Consistency of actions, honesty, ethical
+                    values, principles, expectations and
+                    outcomes. Our word is our integrity.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-2">
+                <div class="img-core-values">
+                  <img src="assets/images/core-values/security.png">
+                </div>
+                <div>
+                  <h3 class="core-values-header2">Security</h3>
+                  <p class="core-values-paragraph">
+                    We serve our customers and partners in the
+                    spirit of mutual confidence, privacy and trust.
+                    We continue to uphold high standards, best
+                    practices and consumer protection.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-2">
+                <div class="img-core-values">
+                  <img src="assets/images/core-values/security.png">
+                </div>
+                <div >
+                  <h3 class="core-values-header2">Reliability</h3>
+                  <p class="core-values-paragraph">
+                    We ensure quality assurance and consistency
+                    in fulfilling our customer and partners’ needs.
+                    We test, measure and deliver our customers
+                    promises on time and efficiency.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+            <!-- second row start -->
+            <div class="row">
+              <div class="col-md-2"></div>
+                <div class="col-md-2">
+                  <div class="img-core-values">
+                    <img src="assets/images/core-values/excellence-teamwork.png">
+                  </div>
+                  <div >
+                    <h3 class="core-values-header2">Excellence & Teamwork</h3>
+                    <p class="core-values-paragraph">
+                      We support team spirit and personal
+                      discipline in all our endeavors. We are
+                      dedicated, loyal, and honorable.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                  <div class="img-core-values">
+                    <img src="assets/images/core-values/accountability-responsibility.png">
+                  </div>
+                  <div>
+                    <h3 class="core-values-header2">Accountability & Responsibility</h3>
+                    <p class="core-values-paragraph">
+                      We accept responsibility for our actions.
+                      We make and support business decisions
+                      through experience and good judgment.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                  <div class="img-core-values">
+                    <img src="assets/images/core-values/innovation.png">
+                  </div>
+                  <div >
+                    <h3 class="core-values-header2">Innovation</h3>
+                    <p class="core-values-paragraph">
+                      We value innovation and build for the future.
+                      We challenge ourselves to go over and above
+                      the status quo. We strive to raise
+                      expectations and break through barriers
+                      others deem impossible to breach.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+              <!-- end of second row -->
+            </div>            
+            <div class="tab-pane fade" id="our-people" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <h3 class="core-values-header">Our People</h3>
+              <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6">
+                  <p class="our-people">Pezesha is led by a highly experienced and passionate local team with more 
+                    than 10 years local and international experience
+                    in fin-tech, management of growth and technology companies, and unparalleled local market knowledge and reach.
+                  </p>
+                </div>
+                <div class="col-md-3">
+                </div>
+              </div>
+            </div>
+          <div class="tab-pane fade" id="our-partners" role="tabpanel" aria-labelledby="nav-about-tab">
+          <h3 class="core-values-header">Our Partners</h3>
+            <div class="row">
+                <div class="col-md-2">
+                  <img src="assets/images/partners/lauchpad.png">
+                </div>
+                <div class="col-md-2">
+                  <img src="assets/images/partners/cgap.png">
+                </div>
+                <div class="col-md-2">
+                  <img src="assets/images/partners/blackbox.png">
+                </div>
+                <div class="col-md-2">
+                  <img src="assets/images/partners/dfs-lab.png">
+                </div>
+                <div class="col-md-2">
+                  <img src="assets/images/partners/trans-union.png">
+                </div>
+                <div class="col-md-2">
+                  <img src="assets/images/partners/nimble.png">
+                </div>
+            </div> 
+          </div>
         </div>
-        <div id="menu1" class="tab-pane fade">
-          <h3>Menu 1</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div id="menu2" class="tab-pane fade">
-          <h3>Menu 2</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-        </div>
-        <div id="menu3" class="tab-pane fade">
-          <h3>Menu 3</h3>
-          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </div>
+      
       </div>
     </div>
+  </div>
+</section>
+<!-- ./Tabs -->
 
 
 
 
 
 
-   
-
+    <section class="content-section">
+      <div class="container">
+      </div>
+    </section>
+    
     </div>
     <footer>
       <div class="container"> 
@@ -105,7 +262,7 @@
             <p><a href="about.html">Why us </a></p>
             <p><a href="about.html">Our Values</a></p>
             <p><a href="about.html">Our partners </a></p>
-            <p><a href="about.html">Our partners</a></p>
+            <p><a href="about.html">Our people</a></p>
           </div>
           <div class="col-md-3">  
             <p><a href="#">About </a></p>
@@ -148,5 +305,7 @@
     <script src="assets/jquery/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </body>
 </html>
