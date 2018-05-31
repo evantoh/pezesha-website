@@ -62,8 +62,7 @@ margin-left: 30px;
 }
 
  /* getting started patascore*/
- .started-patascore{
-  background-image: url(../assets/images/borrow/started-patascore.png);
+ .started-patascore img{
   max-width: 97%;
 margin-top: 42px;
 height: 450px;
@@ -96,7 +95,6 @@ font-size: 15px;
   background: #767676;
   color: white;
   padding: 1%;
-  font-family: serif;
   font-size: 15px;
 }
 }
@@ -170,12 +168,10 @@ text-align: center;
 }*/
 .mfi-data p{
   margin: 0%;
-  font-family: serif;
   font-size: 18px;
 }
 .mfi-data h3{
   margin: 3%;
-  font-family: serif;
   font-size: 15px;
 }
 .mfi-data img{
@@ -263,7 +259,6 @@ footer {
 background:#2A424C;
 color:#fff;
 padding-top: 60px;
-font-family:serif;
 margin-top: 30px;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {

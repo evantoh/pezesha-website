@@ -73,17 +73,14 @@ body {
   margin-top: 0;
   margin-bottom: 1rem;
   text-align: center;
-  font-family: serif;
   font-size: 20px;
   }
   .mfi-data p{
     margin: 0%;
-    font-family: serif;
     font-size: 18px;
   }
   .mfi-data h3{
      margin: 11%;
-    /* font-family: serif; */
     font-size: 18px;
     font-weight: 500;
   }
@@ -134,7 +131,6 @@ font-size: 15px;
   background: #767676;
   color: white;
   padding: 1%;
-  font-family: serif;
   font-size: 15px;
 }
 
@@ -258,7 +254,6 @@ footer {
 background:#2A424C;
 color:#fff;
 padding-top: 60px;
-font-family:serif;
 margin-top: 30px;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {

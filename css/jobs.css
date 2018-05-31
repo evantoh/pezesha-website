@@ -73,19 +73,15 @@ body {
   margin-top: 0;
   margin-bottom: 1rem;
   text-align: center;
-  font-family: serif;
   font-size: 20px;
   }
   .mfi-data p{
     margin: 0%;
-    font-family: serif;
     font-size: 18px;
   }
   .mfi-data h3{
-     margin: 11%;
-    /* font-family: serif; */
+    margin: 11%;
     font-size: 18px;
-    font-family: ROBOTO;
     font-weight: 500;
   }
   .mfi-data img{
@@ -99,7 +95,6 @@ body {
 .full-time-header{
   text-align: center;
   font-size: 15px;
-  font-family: ROBOTO;
  margin: 5%;
 }
 .view-posting{
@@ -123,8 +118,6 @@ background-color:   #191919;
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
 font-size: 15px;
-font-family: roboto;
-}
 .navbar-lend{
   height: 50px;
   background: #191919;
@@ -137,7 +130,6 @@ font-family: roboto;
   background: #767676;
   color: white;
   padding: 1%;
-  font-family: serif;
   font-size: 15px;
 }
 }
@@ -165,17 +157,14 @@ color: #fff;
 .content-section-heading{
   margin-top: 20px;
   margin-top: 35px;
-  font-family: ROBOTO;
   font-weight: 600;
 }
 .content-section-heading h3{
- font-family: ROBOTO;
   font-weight: 600;
   font-size: 25px;
   text-align: center;
 }
 .content-section-heading p{
- font-family: ROBOTO;
   font-weight: 500;
   font-size: 15px;
   text-align: center;
@@ -242,7 +231,6 @@ footer {
 background:#2A424C;
 color:#fff;
 padding-top: 60px;
-font-family:serif;
 margin-top: 30px;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {
@@ -254,11 +242,10 @@ p a {
     color: #fff;
     font-size: 15px;
     padding: 0%;
-    font-family: roboto;
 }
 #subscription p{
 font-size: 18px;
-font-family: roboto;
+
 }
 .subscribebtn{
 background-color:#26B7D4;

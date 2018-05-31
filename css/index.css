@@ -1,70 +1,69 @@
 
 body {
-  padding-top: 54px;
-  margin: 0px;
+padding-top: 54px;
+margin: 0px;
 }
 
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-    text-align: center;
-  }
+body {
+padding-top: 56px;
+text-align: center;
+}
 }
 
 .dropdown-item {
-    display: block;
-    width: 100%;
-    padding: .25rem 1.5rem;
-    clear: both;
-    font-weight: 400;
-    color: #133c31;
-    text-align: inherit;
-    white-space: nowrap;
-    background-color:#00656A;
-    border-radius: 5px;
+display: block;
+width: 100%;
+padding: .25rem 1.5rem;
+clear: both;
+font-weight: 400;
+color: #133c31;
+text-align: inherit;
+white-space: nowrap;
+background-color:#00656A;
+border-radius: 5px;
 }
 
 /* banner carousel */
 
 .banner{
-  height: 608px;
-  background-image: url("../assets/images/pezesha_home.png");
-  width: 100%;
-  background-repeat: no-repeat;
-  /*background-size: 100% 100%;*/
-  background-size:     cover; 
-  background-position: 50% 50%;
-  margin-top:-15px;
+height: 608px;
+background-image: url("../assets/images/pezesha_home.png");
+width: 100%;
+background-repeat: no-repeat;
+background-size:     cover; 
+background-position: 50% 50%;
+margin-top:-15px;
 
 }
 .banner h5{
-  position: relative;
-  top:30%;
-  color: #fff;
-  font-size: 17px;
+position: relative;
+top: 31%;
+color: #fff;
+font-size: 20px;
 }
 .banner h3{
-  position: relative;
-  top: 29%;
-  color: #fff;
-  position: relative;
-  top: 31%;
-  
-  font-weight: 550;
-  /*font-family: serif;*/
-  font-size: 21px;
+position: relative;
+top: 29%;
+color: #fff;
+position: relative;
+top: 31%;
+
+font-weight: 550;
+font-size: 65px;
 
 }
 .banner_action{
-  border-style: solid;
-  border-color:#fff;
-  border-width: 1px;
-  border-radius:4px;
-  padding: 14px 48px;  
+border-style: solid;
+border-color:#fff;
+border-width: 2px;
+border-radius:4px;
+padding: 10px 25px; 
+color: #fff; 
 }
 
 .second-div{
-  margin-left: 2%;
+margin-left: 2%;
 }
 /* navigation */
 .navbar-dark .navbar-nav .nav-link {
@@ -73,54 +72,55 @@ font-size: 15px;
 }
 
 .navbar{
-  background-color: #00656A;
-  height: 120px;
+background-color: #00656A;
+height: 120px;
 }
 .content-section-heading h2{
-    font-size: 25px;
-    color: #3B494E;
-  }
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
-    background: #006C6E;
+font-size: 25px;
+color: #3B494E;
+font-weight: 550;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+position: absolute;
+background: #006C6E;
 }
 
 
 /*Responsiveness for small phones*/
 @media (max-width: 448px) {
   body {
-    padding-top: 0px;
-    text-align: center;
-    font-family: serif;
+  padding-top: 0px;
+  text-align: center;
+
   }
   .banner{
-    height: 275px;
+  height: 275px;
   }
 
   .banner h5{
-    font-size: 16px;
+  font-size: 16px;
   }
   .content-section-heading h2{
-    font-size: 20px;
+  font-size: 20px;
   }
   #hybrid_aproach_img img{
-    height: 130px;
-    max-width: 130px;
-    margin-top: -70px;
+  height: 130px;
+  max-width: 130px;
+  margin-top: -70px;
 
 
   }
   #hybrid_aproach_txt h4{
-    font-size: 16px;
-    font-size: 20px;
-    margin-top: -90px;
-    text-align: justify;
-    margin-left: 90px;
+  font-size: 16px;
+  font-size: 20px;
+  margin-top: -90px;
+  text-align: justify;
+  margin-left: 90px;
   }
   #hybrid_aproach_txt p{
-    font-size: 15px;
-    margin: 30px;
-    margin-top: -25px;
+  font-size: 15px;
+  margin: 30px;
+  margin-top: -25px;
   }
   #call_to_action h3{
   font-size: 16px;
@@ -128,41 +128,41 @@ font-size: 15px;
   margin-top: -112px;
   }
   .centered img{
-    margin: 11px;
+  margin: 11px;
   }
   .sign-up-paragraph{
-    font-size: 16px;
+  font-size: 16px;
   }
   .form-control {
-    margin-left: 20px;
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    margin-left: 42px;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
+  margin-left: 20px;
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  margin-left: 42px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
   }
   .subscribebtn {
-    margin-left: 115px;
-    background-color: #26B7D4;
-    background-color: #26B7D4;
-    margin-top: 10px;
-    width: 130px;
+  margin-left: 115px;
+  background-color: #26B7D4;
+  background-color: #26B7D4;
+  margin-top: 10px;
+  width: 130px;
   }
 }
 
 /*Responsiveness for ipad*/
 @media (max-width: 768px) {
-  .banner{
-    height: 300px;
-  }
-  .banner h5{
-    font-size: 20px;
-  }
+.banner{
+height: 300px;
+}
+.banner h5{
+font-size: 20px;
+}
 }  
 
 
@@ -194,8 +194,7 @@ font-size: 30px;
 
 
 .sign-up-content{
-  font-family: serif;
-  font-size: 15px;
+font-size: 15px;
 }
 
 
@@ -217,7 +216,6 @@ text-align: center;
 color: black;
 font-size: 20px;
 margin-bottom: 20%;
-font-family: serif;
 }
 
 .description{
@@ -225,13 +223,11 @@ font-size: 25px;
 color: #1b1616;
 margin-left: 20%;
 margin-top: 8%;
-font-family: serif;
 
 }
 .description2{
 font-size: 25px;
 color: #1b1616;
-font-family: serif;
 margin-left: 30%;
 }
 .description-sign{
@@ -239,21 +235,20 @@ font-size: 25px;
 color: #1b1616;
 margin-left: 27%;
 padding-top: 10%;
-font-family: serif;
 
 }
 .subscription{
-  color: #FFF;
-  font: 200px;
+color: #FFF;
+font: 200px;
 
 }
 .svg-inline--fa {
-  display: inline-block;
-  font-size: inherit;
-  height: 1em;
-  overflow: visible;
-  vertical-align: -0.125em;
-  float: right;
+display: inline-block;
+font-size: inherit;
+height: 1em;
+overflow: visible;
+vertical-align: -0.125em;
+float: right;
 }
 .carousel-inner  a button{
 margin:30px;
@@ -261,7 +256,7 @@ margin-bottom: 50%;
 
 }
 .description-sign card-img-top{
-  height:170px;
+height:170px;
 }
 .carousel-caption {
 position: absolute;
@@ -276,92 +271,92 @@ text-align: center;
 padding: 50px;
 }
 #pezesha-description{
-  background: #fff;
+background: #fff;
 }
 
- /* home page description  */
+/* home page description  */
 
- #hybrid_aproach_img{
-  height: 250px;
-  float: left;
- }
- #hybrid_aproach_img img{
-   width: 100%;
-   position: relative;
-   top: 33%;
-    height: 130px;
-    width: 130px;
- }
- #hybrid_aproach_txt{
-  float: right;
- }
- #hybrid_aproach_txt p,h4{
-  text-align: justify;
+#hybrid_aproach_img{
+height: 250px;
+float: left;
+}
+#hybrid_aproach_img img{
+width: 100%;
+position: relative;
+top: 33%;
+height: 130px;
+width: 130px;
+}
+#hybrid_aproach_txt{
+float: right;
+}
+#hybrid_aproach_txt p,h4{
+text-align: justify;
 
- }
- /* call to action */
- #call_to_action p{
-   margin-top: 20px;
- }
- #call_to_action button{
-   background-color: 	#5DBCD2;
-   border: 0px;
-   font-size: 15px;
- }
+}
+/* call to action */
+#call_to_action p{
+margin-top: 20px;
+}
+#call_to_action button{
+background-color: 	#5DBCD2;
+border: 0px;
+font-size: 15px;
+}
 
- #call_to_action {
-   background-color: 	#F8F8F8;
-   margin-top: 60px;
-   padding: 60px 0px;
- }
+#call_to_action {
+background-color: 	#F8F8F8;
+margin-top: 60px;
+padding: 60px 0px;
+}
 
- /*credit scoring link*/
- .credit-scoring-link{
-  color: #17a2b8;
-  font-size: 16px;
-  text-decoration: none;
- }
+/*credit scoring link*/
+.credit-scoring-link{
+color: #17a2b8;
+font-size: 16px;
+text-decoration: none;
+}
 
 
 #slide-couresel{
-  background-color: black;
-  position: absolute;
-  opacity:1.0;
-  }
-  .sign-up-paragraph{
-  font-size: 15px;
-    text-align: center;
-    font-weight: 550;;
-  }
-  .sign-up-header{
-  font-size: 17px;
-  font-weight: 600;
-  color: #3B494E;
-  }
+background-color: black;
+position: absolute;
+opacity:1.0;
+}
+.sign-up-paragraph{
+font-size: 15px;
+text-align: center;
+font-weight: 550;;
+}
+.sign-up-header{
+font-size: 17px;
+font-weight: 600;
+color: #3B494E;
+}
 
-  h2{
-        color: #105042;
-        text-align: center;
-        margin-top: 5%;
-        font-size: 25px;
-        font-weight: 1000;
-    }
+h2{
+color: #105042;
+text-align: center;
+margin-top: 5%;
+font-size: 25px;
+font-weight: 1000;
+}
 
-    p{
-      font-size:15px;
-      text-align: center;
-    }
-    h4{
-    font-size: 17px;
-    font-weight: 700;
-    color:  #3B494E;
-    margin-top: 75px;
-    }
-    .btn-secondary:hover {
-      color: #fff;
-      background-color: #17a2b8;
-    
-  }
+p{
+font-size:15px;
+text-align: center;
+}
+h4{
+font-size: 17px;
+font-weight: 700;
+color:  #3B494E;
+margin-top: 75px;
+}
+.btn-secondary:hover {
+color: #fff;
+background-color: #17a2b8;
+
+}
 
 
 
@@ -422,18 +417,17 @@ footer {
 background:#2A424C;
 color:#fff;
 padding-top: 60px;
-font-family:serif;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {
 margin: 0;
 padding: 5px;
 }
 p a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
-    padding: 0%;
-  
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+padding: 0%;
+
 }
 #subscription p{
 font-size: 18px;

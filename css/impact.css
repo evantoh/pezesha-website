@@ -37,7 +37,6 @@ font-size: 15px;
   background: #767676;
   color: white;
   padding: 1%;
-  font-family: serif;
   font-size: 15px;
 }
 }
@@ -68,7 +67,6 @@ color: #fff;
   text-decoration: none;
   color: #fff;
   font-size: 30px;
-  font-family: serif;
   }
   .logo-image img{
   height: 2%;
@@ -127,8 +125,9 @@ font-size: 15px;
     color: white;
 }
 .img-fluid1{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
+    margin-left: 75px;
 }
 .img-fluid2{
     height: 60px;
@@ -154,7 +153,6 @@ font-size: 15px;
   font-size: 20px;
 }
   p{
-    font-family: serif;
     margin-top: 0;
     margin-bottom: 2rem;
   }
@@ -225,7 +223,6 @@ footer {
 background:#2A424C;
 color:#fff;
 padding-top: 60px;
-font-family:serif;
 margin-top: 30px;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {

@@ -29,9 +29,7 @@ font-size: 15px;
   background: #767676;
   color: white;
   padding: 1%;
-  font-family: serif;
   font-size: 15px;
-}
 }
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
@@ -176,7 +174,6 @@ footer {
 background:#2A424C;
 color:#fff;
 padding-top: 60px;
-font-family:serif;
 margin-top: 30px;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {

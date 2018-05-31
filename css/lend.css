@@ -1,13 +1,12 @@
 
 body {
-  padding-top: 54px;
+padding-top: 54px;
 }
 
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-   /* background-color: #EAEAEA;*/
-  }
+body {
+padding-top: 56px;
+}
 }
 
 Responsive Tablet Sizes
@@ -29,14 +28,13 @@ text-decoration: none;
 text-decoration: none;
 color: #fff;
 font-size: 30px;
-font-family: serif;
 }
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
 }
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
-    background: #006768;
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+position: absolute;
+background: #006768;
 }
 
 
@@ -47,14 +45,14 @@ max-width: none;
 
 }
 .subscription{
-  color: #FFF;
-  font: 200px;
+color: #FFF;
+font: 200px;
 }
 
 /*Navigation*/
 .navbar{
 background-color:   #191919;
- height: 100px;
+height: 100px;
 }
 .navbar-dark .navbar-nav .nav-link {
 color: #fff;
@@ -62,19 +60,18 @@ font-size: 15px;
 
 }
 .navbar-lend{
-  height: 50px;
-  background: #191919;
-  width: 100%;
-  color: white;
+height: 50px;
+background: #191919;
+width: 100%;
+color: white;
 }
 .navbar-lend p{
-  text-align: center;
-  height: 50px;
-  background: #767676;
-  color: white;
-  padding: 1%;
-  font-family: serif;
-  font-size: 15px;
+text-align: center;
+height: 50px;
+background: #767676;
+color: white;
+padding: 1%;
+font-size: 15px;
 }
 
 
@@ -83,11 +80,11 @@ border-radius:5px
 }
 
 .faq{
-  margin: 5%;
-  text-align: center;
+margin: 5%;
+text-align: center;
 }
 .faq h1{
-  text-align: center;
+text-align: center;
 }
 .img-fluid {
 max-width: 100%;
@@ -105,7 +102,7 @@ height: 100%;
 background: #EAEAEA;
 }
 .lend-section{
-  background-color: # #FFFFFF;
+background-color: # #FFFFFF;
 }
 /*lend section headers*/
 
@@ -118,35 +115,36 @@ margin-top: 30px;
 
 }
 .lend-section-paragraphs{
-    font-size: 15px;
-    text-align: justify;
-    height: 160px;
+font-size: 15px;
+text-align: justify;
+height: 160px;
 
 
 }
 .lend-learn-more{
-  margin-left: -186px;
+margin-left: -186px;
 }
 .peer-peer-banner{
-background-image: url(../assets/images/lend/borrow.png);
+background-image: url(../assets/images/lend/borrow.png
+);
 max-width: 100%;
 height: 410px;
 }
 
 .lend-img{
-    /* margin-left: 23%; */
-    margin-top: 60px;
-    background-position: center;
-    background-position: relative;
-    height: 95px;
-    width: 95px;
-    margin-left: -62%;
-    position: relative;
+/* margin-left: 23%; */
+margin-top: 60px;
+background-position: center;
+background-position: relative;
+height: 95px;
+width: 95px;
+margin-left: -62%;
+position: relative;
 }
 .text-lend-banner {
 margin-left: 60%;
 padding-top: 120px;
-    margin-top: 35px;
+margin-top: 35px;
 }
 .text-lend-banner h3{
 font-size: 25px;
@@ -156,71 +154,71 @@ font-weight: 600;
 }
 /*investment section*/
 .investment-img{
-  margin-top: 4%;
+margin-top: 4%;
 }
 
 /* why lend through pezesha*/
 .lend-through-pezesha{
-  background: #F2F2F2;
-  height: 100%;
-  font-weight: 600;
- max-width: 100%;
- margin-top: 4%;
- font-size: 25px;
+background: #F2F2F2;
+height: 100%;
+font-weight: 600;
+max-width: 100%;
+margin-top: 4%;
+font-size: 25px;
 }
 .lend-pezesha-header {
-    margin-top: 4%;;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 600;
-    padding-top: 50px;
+margin-top: 4%;;
+font-size: 20px;
+text-align: center;
+font-weight: 600;
+padding-top: 50px;
 }
 
 .maxise-returns img{
- 
- margin: 40px; 
+
+margin: 40px; 
 }
 .maximise-content{
-  
-  color: 
+
+color: 
 }
 .maximise-content h3{
-    font-size: 17px;
-    font-weight: 600;
+font-size: 17px;
+font-weight: 600;
 
 }
 .maximise-content p{
-    font-weight: 500;
-    font-size: 15px;
+font-weight: 500;
+font-size: 15px;
 
 }
 
 /*Risks*/
 #risks h3{
-        font-size: 17px;
-   
-    text-align: center;
-    font-weight: 600;
+font-size: 17px;
+
+text-align: center;
+font-weight: 600;
 }
 
 /*pezesha works for individual lenders*/
 
 .left-table{
-  height: 340px;
-  width: 275px;
-  background-color: #2A424C;
-  padding: 20px;
-  margin-left: 16%;
+height: 340px;
+width: 275px;
+background-color: #2A424C;
+padding: 20px;
+margin-left: 16%;
 }
 .right-table{
-  height: 340px;
-  width: 275px;
-  padding: 20px;
-  background-color: #FD725B;
+height: 340px;
+width: 275px;
+padding: 20px;
+background-color: #FD725B;
 }
 .pezesha-works-lenders{
-  margin-left: 8%;
-  margin-top: 4%;
+margin-left: 8%;
+margin-top: 4%;
 }
 .pezesha-works-lenders h3{
 font-size: 23px;
@@ -243,8 +241,7 @@ color: #fff;
 font-size: 16px;
 font-weight: 600;
 margin-left: 15%;
-    margin-top: 43px;
-/* margin-top: 15px; */
+margin-top: 43px;
 background-color: #26B7D4;
 }
 .btn-right a{
@@ -258,37 +255,36 @@ color: #fff;
 font-size: 16px;
 font-weight: 600;
 margin-left: 15%;
-/* margin-top: 15px; */
 background-color: #26B7D4;
 }
 
 .faq-paragraph{
-    font-size: 20px;
-    color: #26B7D4;
-    font-weight: 600;
+font-size: 20px;
+color: #26B7D4;
+font-weight: 600;
 }
 /*simple-secure and automated*/
 .simple-secure-automated{
-  margin-top: 6%;
+margin-top: 6%;
 }
 .simple-secure-automated-header{
-  font-size: 25px;
-    padding: 1px;
-    font-weight: 600;
+font-size: 25px;
+padding: 1px;
+font-weight: 600;
 }
 .faq-paragraph{
-  text-decoration: none;
-  font-size: 15px;
-      color: #343a40;
+text-decoration: none;
+font-size: 15px;
+color: #343a40;
 }
 /*
 lender-process-header*/
 .lender-process-header{
-  text-align: center;
-  font-size: 15px;
+text-align: center;
+font-size: 15px;
 }
 .img-lending-process{
-  background-position: center;
+background-position: center;
 background-position: relative
 }
 .notifications-paragragh p{
@@ -352,18 +348,17 @@ footer {
 background:#2A424C;
 color:#fff;
 padding-top: 60px;
-font-family:serif;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {
 margin: 0;
 padding: 5px;
 }
 p a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
-    padding: 0%;
-  
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+padding: 0%;
+
 }
 #subscription p{
 font-size: 18px;
