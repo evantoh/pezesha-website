@@ -44,8 +44,8 @@ font-size: 15px;
 color: #fff;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
-    background: #006768;
+position: absolute;
+background: #1d2124;
 }
   
   Responsive Tablet Sizes
@@ -99,12 +99,15 @@ color: #fff;
     margin-right: 28%;
 }
   .contaniner1 {
-    max-width: 100%;
-    background-position: center;
-    margin: 0%;
-    background-image: url(../assets/images/impact/slum.png);
-    margin-left: 0%;
-    height: 424px;
+max-width: 100%;
+background-position: center;
+margin: 0%;
+background-image: url(../assets/images/impact/slum.png);
+margin-left: 0%;
+height: 424px;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .slams-header{
 font-size: 20px;
