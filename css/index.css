@@ -228,27 +228,30 @@ width: 166px;
     padding: 11px;
     height: 47px;
     color: #fff;
+    width: 140px;
     font-size: 16px;
     font-weight: 600;
-    margin-left: 57%;
+    margin-left: 20%;
     margin-top: 18%;
     border: 3px solid;
     border-radius: 12px;
-    background-color:  ;
+        margin-top: 129%;
+   
     
 }
 .btn-left p {
     width: 166px;
     padding: 11px;
     height: 47px;
+    width: 140px;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-    margin-left: 39%;
-    margin-top: -5%;
-    border: 3px solid;
+    margin-left: 20%;
+/*    margin-top: -5%;
+*/    border: 3px solid;
         border-radius: 12px;
-    background-color: #;
+            margin-top: 129%;
     
 }
 
