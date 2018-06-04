@@ -88,8 +88,7 @@ font-size: 25px;
 }
 
  a{
-  color: #7b7c80;
-} 
+  color: #7b7c80;} 
 /* footer */
 
 .footer-logo {
@@ -173,6 +172,7 @@ width: 130px;
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
 .accordion-toggle:after {
     font-family: 'FontAwesome';
+          
     content: "\f078";    
     float: right;
 }
