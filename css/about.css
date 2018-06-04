@@ -8,9 +8,6 @@ body {
       padding-top: 56px;
     }
   }
-  .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-  }
         
   img.logo {
     padding:30px 20px 10px 20px;
@@ -149,7 +146,7 @@ font-size: 15px;
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
 position: absolute;
-background: #1d2124;
+background: white;
 }
 
 /*Navigation end*/

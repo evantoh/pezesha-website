@@ -81,8 +81,9 @@ color: #3B494E;
 font-weight: 550;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-position: absolute;
-background: #1d2124;
+    position: absolute;
+    /* background: #1d2124; */
+    background: white;
 }
 
 
@@ -93,6 +94,12 @@ background: #1d2124;
   text-align: center;
 
   }
+  .pezesha-logo{
+  }
+  .navbar{
+background-color: #00656A;
+height: 120px;
+}
   .banner{
   height: 275px;
   }
@@ -219,9 +226,7 @@ height: 1%;
       margin-top: -15px;
     font-weight: 700;
 }
-a:hover{
-  text-decoration: none;
-}
+
 
 .btn-right p{
 width: 166px;
@@ -475,6 +480,8 @@ background-color: #26B7D4;
 margin-top: 10px;
 width: 130px;
 }
-.footer-social-fb{
 
+a:hover{
+  text-decoration: none;
+  color: #fff;
 }

@@ -1,0 +1,373 @@
+
+body {
+padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+body {
+padding-top: 56px;
+}
+}
+
+Responsive Tablet Sizes
+
+body {
+margin:0;
+} 
+
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/*Navigation*/
+.navbar-item a:hover {
+text-decoration: none;
+text-decoration: none;
+color: #fff;
+font-size: 30px;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+position: absolute;
+background: white;
+}
+
+
+.logo-image img {
+height: 2%;
+max-height: 60px;
+max-width: none;
+
+}
+.subscription{
+color: #FFF;
+font: 200px;
+}
+
+/*Navigation*/
+.navbar{
+background-color:   #191919;
+height: 100px;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+font-size: 15px;
+
+}
+.navbar-lend{
+height: 50px;
+background: #191919;
+width: 100%;
+color: white;
+}
+.navbar-lend p{
+text-align: center;
+height: 50px;
+background: #767676;
+color: white;
+padding: 1%;
+font-size: 15px;
+}
+
+
+.subscribe-button{
+border-radius:5px
+}
+
+.faq{
+margin: 5%;
+text-align: center;
+}
+.faq h1{
+text-align: center;
+}
+.img-fluid {
+max-width: 100%;
+height: 50%;
+background-position: center;
+margin: 0%;
+margin-top: 3%;
+background-color: #EAEAEA;
+}
+
+/*lend-section*/
+.lend-container{
+width: 100%;
+height: 100%;
+background: #EAEAEA;
+}
+.lend-section{
+background-color: # #FFFFFF;
+}
+/*lend section headers*/
+
+
+.lend-section-headers {
+font-weight: 600;
+font-size: 17px;
+text-align: justify;
+margin-top: 30px;
+
+}
+.lend-section-paragraphs{
+font-size: 15px;
+text-align: justify;
+height: 160px;
+
+
+}
+.lend-learn-more{
+margin-left: -186px;
+}
+.peer-peer-banner{
+background-image: url(../assets/images/lend/borrow.png);
+max-width: 100%;
+height: 410px;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.lend-img{
+/* margin-left: 23%; */
+margin-top: 60px;
+background-position: center;
+background-position: relative;
+height: 95px;
+width: 95px;
+margin-left: -62%;
+position: relative;
+}
+.text-lend-banner {
+margin-left: 60%;
+padding-top: 120px;
+margin-top: 35px;
+}
+.text-lend-banner h3{
+font-size: 25px;
+color: #fff;
+font-weight: 600;
+
+}
+/*investment section*/
+.investment-img{
+margin-top: 4%;
+}
+
+/* why lend through pezesha*/
+.lend-through-pezesha{
+background: #F2F2F2;
+height: 100%;
+font-weight: 600;
+max-width: 100%;
+margin-top: 4%;
+font-size: 25px;
+}
+.lend-pezesha-header {
+margin-top: 4%;;
+font-size: 20px;
+text-align: center;
+font-weight: 600;
+padding-top: 50px;
+}
+
+.maxise-returns img{
+
+margin: 40px; 
+}
+.maximise-content{
+
+color: 
+}
+.maximise-content h3{
+font-size: 17px;
+font-weight: 600;
+
+}
+.maximise-content p{
+font-weight: 500;
+font-size: 15px;
+
+}
+
+/*Risks*/
+#risks h3{
+font-size: 17px;
+
+text-align: center;
+font-weight: 600;
+}
+
+/*pezesha works for individual lenders*/
+
+.left-table{
+height: 340px;
+width: 275px;
+background-color: #2A424C;
+padding: 20px;
+margin-left: 16%;
+}
+.right-table{
+height: 340px;
+width: 275px;
+padding: 20px;
+background-color: #FD725B;
+}
+.pezesha-works-lenders{
+margin-left: 8%;
+margin-top: 4%;
+}
+.pezesha-works-lenders h3{
+font-size: 23px;
+font-weight: 600;
+}
+.left-table h3,.right-table h3{
+color: #fff;
+font-size: large;
+margin-left: 20%;
+}
+.left-tick p,.right-tick p{
+color: #fff;
+letter-spacing: 0px;
+}
+.btn-right p{
+width: 166px;
+padding: 11px;
+height: 47px;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+margin-left: 15%;
+margin-top: 43px;
+background-color: #26B7D4;
+}
+.btn-right a{
+text-decoration: none;
+}
+.btn-left p{
+width: 166px;
+padding: 11px;
+height: 47px;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+margin-left: 15%;
+background-color: #26B7D4;
+}
+
+.faq-paragraph{
+font-size: 20px;
+color: #26B7D4;
+font-weight: 600;
+}
+/*simple-secure and automated*/
+.simple-secure-automated{
+margin-top: 6%;
+}
+.simple-secure-automated-header{
+font-size: 25px;
+padding: 1px;
+font-weight: 600;
+}
+.faq-paragraph{
+text-decoration: none;
+font-size: 15px;
+color: #343a40;
+}
+/*
+lender-process-header*/
+.lender-process-header{
+text-align: center;
+font-size: 15px;
+}
+.img-lending-process{
+background-position: center;
+background-position: relative
+}
+.notifications-paragragh p{
+font-size: 15px;
+}
+
+/* footer */
+
+.footer-logo {
+width:20%;
+}
+
+footer p {
+margin-top: 0;
+margin-bottom: 0rem;
+}
+.subscribe-button{
+border-radius:5px
+}
+.socialbtns .fa:hover {
+color: #FFF;
+background-color: #000;
+border: 1px solid #000;
+}
+
+.socialbtns li {
+list-style: none outside none;
+display: inline-block;
+}
+
+.socialbtns .fa {
+width: 40px;
+height: 28px;
+color: #000;
+background-color: #FFF;
+border: 1px solid #000;
+padding-top: 12px;
+border-radius: 22px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+-o-border-radius: 22px;
+}
+.footer-navigation {
+width:60%;
+}
+.footer-links-holder {
+width: 33.33333%;
+position: relative;
+float: left;
+margin: 0;
+}
+
+.footer-links {
+margin:0;
+padding:0;
+list-style:none;
+-webkit-transition: max-height .5s;
+transition: max-height .5s;
+}
+footer {
+background:#2A424C;
+color:#fff;
+padding-top: 60px;
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+margin: 0;
+padding: 5px;
+}
+p a {
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+padding: 0%;
+
+}
+#subscription p{
+font-size: 18px;
+}
+.subscribebtn{
+background-color:#26B7D4;
+background-color: #26B7D4;
+margin-top: 10px;
+width: 130px;
+}

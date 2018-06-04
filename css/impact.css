@@ -45,7 +45,7 @@ color: #fff;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
 position: absolute;
-background: #1d2124;
+background: white;
 }
   
   Responsive Tablet Sizes
@@ -111,7 +111,10 @@ background-size: cover;
 }
 .slams-header{
 font-size: 20px;
-margin-top: 70px;
+margin-top: 200px;
+font-weight: 900;
+color: #fff; 
+
 }
 .impact-paragraph{
 font-size: 15px;
