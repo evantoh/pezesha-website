@@ -16,7 +16,7 @@ body {
 /*background-image: url(../);*/
 max-width: 100%;
 margin-top: 42px;
-height: 370px;
+height: auto;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
