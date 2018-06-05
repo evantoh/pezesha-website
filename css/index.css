@@ -29,7 +29,7 @@ border-radius: 5px;
 .banner{
 height: 608px;
 background-image: url("../assets/images/pezesha_home.png");
-width: 100%;
+max-width: 100%;
 background-repeat: no-repeat;
 background-size:     cover; 
 background-position: 50% 50%;
@@ -47,7 +47,7 @@ position: relative;
 top: 29%;
 color: #fff;
 position: relative;
-top: 31%;
+top: 45%;
 
 font-weight: 550;
 font-size: 35px;
@@ -126,8 +126,6 @@ height: 120px;
   }
   #hybrid_aproach_txt p{
   font-size: 15px;
-  margin: 30px;
-  margin-top: -25px;
   }
   #call_to_action h3{
   font-size: 16px;
@@ -230,34 +228,33 @@ height: 1%;
 
 .btn-right p{
 width: 166px;
-    padding: 11px;
-    height: 47px;
-    color: #fff;
-    width: 140px;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 20%;
-    margin-top: 18%;
-    border: 3px solid;
-    border-radius: 12px;
-        margin-top: 129%;
+padding: 11px;
+height: 47px;
+color: #fff;
+width: 140px;
+font-size: 16px;
+font-weight: 600;
+margin-left: 25%;
+margin-top: 18%;
+border: 3px solid;
+border-radius: 12px;
+margin-top: 60%;
    
     
 }
 .btn-left p {
-    width: 166px;
-    padding: 11px;
-    height: 47px;
-    width: 140px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 20%;
-/*    margin-top: -5%;
-*/    border: 3px solid;
-        border-radius: 12px;
-            margin-top: 129%;
-    
+width: 166px;
+padding: 11px;
+height: 47px;
+width: 140px;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+/*margin-left: 20%*/;
+border: 3px solid;
+border-radius: 12px;
+margin-top: 60%;
+
 }
 
 .description{
@@ -312,9 +309,9 @@ color: #fff;
 text-align: center;
 padding: 50px;
 }
-#pezesha-description{
+/*#pezesha-description{
 background: #fff;
-}
+}*/
 
 /* home page description  */
 
@@ -377,11 +374,10 @@ color: #3B494E;
 }
 
 h2{
-color: #105042;
 text-align: center;
 margin-top: 5%;
 font-size: 25px;
-font-weight: 1000;
+font-weight: 700;
 }
 
 p{
