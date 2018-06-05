@@ -95,32 +95,7 @@ margin-top: 3%;
 background-color: #EAEAEA;
 }
 
-/*lend-section*/
-.lend-container{
-width: 100%;
-height: 100%;
-background: #EAEAEA;
-}
-.lend-section{
-background-color: # #FFFFFF;
-}
-/*lend section headers*/
 
-
-.lend-section-headers {
-font-weight: 600;
-font-size: 17px;
-text-align: justify;
-margin-top: 30px;
-
-}
-.lend-section-paragraphs{
-font-size: 15px;
-text-align: justify;
-height: 160px;
-
-
-}
 .lend-learn-more{
 margin-left: -186px;
 }
@@ -131,6 +106,7 @@ height: 410px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+margin-top: 3%;
 }
 
 .lend-img{
