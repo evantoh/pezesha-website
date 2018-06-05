@@ -79,7 +79,7 @@ height: 290px;
 
   /*Navigation*/
 .navbar{
-background-color:   #191919;
+background-color: #00656A;
  height: 100px;
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -205,6 +205,26 @@ margin-left: 0px;
 .pezesha-link-loan{
   color: blue;
 }
+/*
+BTN BORROW*/
+.btn-left p {
+    width: 166px;
+    padding: 3px;
+    height: 75px;
+    width: 252px;
+    /* margin-top: 10px; */
+    color: #fff;
+    padding-top: 27px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    /* margin-left: 20%; */
+    border: 3px solid;
+    border-radius: 12px;
+    background: #7b7c80;
+
+}
+
 /* footer */
 
 .footer-logo {

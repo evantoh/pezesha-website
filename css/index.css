@@ -3,6 +3,9 @@ body {
 padding-top: 54px;
 margin: 0px;
 }
+strong{
+  color: black;
+}
 
 @media (min-width: 992px) {
 body {
@@ -38,7 +41,7 @@ margin-top:-15px;
 }
 .banner h5{
 position: relative;
-top: 31%;
+top: 70%;
 color: #fff;
 font-size: 20px;
 }
@@ -47,10 +50,10 @@ position: relative;
 top: 29%;
 color: #fff;
 position: relative;
-top: 45%;
+top: 80%;
 
 font-weight: 550;
-font-size: 35px;
+font-size: 30px;
 
 }
 .banner_action{
@@ -88,24 +91,63 @@ font-weight: 550;
 
 
 /*Responsiveness for small phones*/
-@media (max-width: 448px) {
+@media (max-width: 448px) 
+{
   body {
   padding-top: 0px;
   text-align: center;
 
   }
-  .pezesha-logo{
-  }
   .navbar{
-background-color: #00656A;
-height: 120px;
-}
+  background-color: #00656A;
+  height: 120px;
+  }
+  .banner h3 {
+  position: relative;
+  top: 29%;
+  color: #fff;
+  position: relative;
+  top: 65%;
+  font-weight: 550;
+  font-size: 17px;
+  }
   .banner{
   height: 275px;
   }
 
   .banner h5{
+  font-size: 12px;
+  top: 55%;
+  }
+  .btn-right p{
+  width: 166px;
+  padding: 11px;
+  height: 47px;
+  color: #fff;
+  width: 140px;
   font-size: 16px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  border: 3px solid;
+  border-radius: 12px;
+  margin-top: 60%;
+     
+    
+  }
+  .btn-left p {
+  
+  padding: 5px;
+  height: 44px;
+  width: 40px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  /*margin-left: 20%*/;
+  border: 1px solid;
+  border-radius: 12px;
+  margin-top: 10%;
+
   }
   .content-section-heading h2{
   font-size: 20px;
@@ -159,6 +201,8 @@ height: 120px;
   width: 130px;
   }
 }
+
+
 
 /*Responsiveness for ipad*/
 @media (max-width: 768px) {
@@ -238,7 +282,7 @@ margin-left: 25%;
 margin-top: 18%;
 border: 3px solid;
 border-radius: 12px;
-margin-top: 60%;
+margin-top: 80%;
    
     
 }
@@ -253,7 +297,7 @@ font-weight: 600;
 /*margin-left: 20%*/;
 border: 3px solid;
 border-radius: 12px;
-margin-top: 60%;
+margin-top: 80%;
 
 }
 
