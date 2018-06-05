@@ -5,7 +5,7 @@ body {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 0px;
   }
 
   /*Navigation*/
@@ -120,7 +120,7 @@ input {
     border-bottom: 1px solid #bebed2;
 }
 
-.contact-paragraph{
+.contact-paragragh{
 font-size :15px;
 }
 
@@ -131,7 +131,7 @@ width:20%;
 }
 
 footer p {
-margin-top: 0;
+margin-top: -31px;
 margin-bottom: 0rem;
 }
 .subscribe-button{
