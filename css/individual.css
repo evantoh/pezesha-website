@@ -100,9 +100,9 @@ background-color: #EAEAEA;
 margin-left: -186px;
 }
 .peer-peer-banner{
-background-image: url(../assets/images/lend/borrow.png);
+/*background-image: url(..);*/
 max-width: 100%;
-height: 410px;
+/*height: 410px;*/
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
