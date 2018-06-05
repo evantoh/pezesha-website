@@ -1,9 +1,7 @@
 
 hr{
-  height:1px;
-  border:none;
-  color:#333;
-  background-color:rgb(53, 99, 224); 
+  /*height:2px;*/
+  background-color: #7b7c80;
 }
 body {
     padding-top: 54px;
