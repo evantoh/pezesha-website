@@ -12,9 +12,7 @@ body {
       padding-top: 56px;
     }
   }
-  .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-  }
+  
         
   img.logo {
     padding:30px 20px 10px 20px;
@@ -32,11 +30,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   }
-  
-  html footer{
-  color:#fff;
-  
-  }
+
   @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
   
   a, a:hover {
@@ -83,12 +77,7 @@ body {
     background: #f8f9fa;
     margin-top: 4%;
   }
-  p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  text-align: center;
-  font-size: 20px;
-  }
+  
   .mfi-data p{
     margin: 0%;
     font-size: 18px;
@@ -113,22 +102,7 @@ h1{
       font-weight: 600;
 
 }
-/*#lenders{
-  background: #333;*/
-}
-iframe{
-  width:70%;
-  height: 400px;
-  margin-left:20%;
-}
-#testimonials-img{
-margin-top: 27px;
-}
-#testimonials-img img{
-
-margin-top: 12px;
-}
-.borrowers-paragrapgh{
+.borrowers-paragragh{
   margin-top: 20px;
   font-size: 15px;
       text-align: justify;
@@ -150,110 +124,5 @@ margin-top: 12px;
   text-align: justify;
 }
 
-/*Navigation*/
-.navbar{
-background-color: #00656A;
- height: 100px;
-}
-.navbar-dark .navbar-nav .nav-link {
-color: #fff;
-font-size: 15px;
-}
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-position: absolute;
-background: white;
-}
-.navbar-lend{
-  height: 50px;
-  background: #191919;
-  width: 100%;
-  color: white;
-}
-.navbar-lend p{
-  text-align: center;
-  height: 50px;
-  background: #767676;
-  color: white;
-  padding: 1%;
-  font-size: 15px;
-}
 
    
-/* footer */
-
-.footer-logo {
-width:20%;
-}
-
-footer p {
-margin-top: 0;
-margin-bottom: 0rem;
-}
-.subscribe-button{
-border-radius:5px
-}
-.socialbtns .fa:hover {
-color: #FFF;
-background-color: #000;
-border: 1px solid #000;
-}
-
-.socialbtns li {
-list-style: none outside none;
-display: inline-block;
-}
-
-.socialbtns .fa {
-width: 40px;
-height: 28px;
-color: #000;
-background-color: #FFF;
-border: 1px solid #000;
-padding-top: 12px;
-border-radius: 22px;
--moz-border-radius: 22px;
--webkit-border-radius: 22px;
--o-border-radius: 22px;
-}
-.footer-navigation {
-width:60%;
-}
-.footer-links-holder {
-width: 33.33333%;
-position: relative;
-float: left;
-margin: 0;
-}
-
-.footer-links {
-margin:0;
-padding:0;
-list-style:none;
--webkit-transition: max-height .5s;
-transition: max-height .5s;
-}
-footer {
-background:#2A424C;
-color:#fff;
-padding-top: 60px;
-margin-top: 30px;
-}
-.socialbtns, .socialbtns ul, .socialbtns li {
-margin: 0;
-padding: 5px;
-}
-p a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
-    padding: 0%;
-}
-#subscription p{
-font-size: 18px;
-}
-.subscribebtn{
-background-color:#26B7D4;
-background-color: #26B7D4;
-margin-top: 10px;
-width: 130px;
-}
