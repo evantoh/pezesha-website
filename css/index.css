@@ -182,6 +182,17 @@ font-weight: 550;
   .social-media-btns{
     margin-left: 50%;
   }
+  .subscribebtn{
+background-color: #26B7D4;
+margin-top: 10px;
+width: 130px;
+margin-left: 22%;
+}
+#subscription p{
+    text-align: justify;
+    margin-left: 0px;
+
+}
 
 }
 
