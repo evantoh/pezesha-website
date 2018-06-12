@@ -1,11 +1,14 @@
 
 body {
-    padding-top: 54px;
+ padding-top: 0px;
+margin: 0px;
   }
   
   @media (min-width: 992px) {
     body {
       padding-top: 56px;
+      text-align: center;
+}
     }
   }
   .navbar-dark .navbar-nav .nav-link {
@@ -102,6 +105,7 @@ body {
     border-width: 2px;
     border-radius: 8px;
     padding: 9px 14px;
+    color: grey;
 }
 .content-section-heading h5{
 font-weight: 800;

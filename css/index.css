@@ -71,14 +71,10 @@ font-weight: 550;
 {
   body {
   padding-top: 0px;
-  /*text-align: center*/;
-
   }
- 
 
  .banner{
-  height: 608px;
-  max-width: 100%;
+  background: #00656A;
   }
   .banner h3 {
   position: relative;
@@ -89,9 +85,9 @@ font-weight: 550;
   font-size: 17px;
   }
   #header-description{
-  font-size: 15px;
-  top: 10%;
-  text-align: justify;
+  font-size: 17px;
+    top: -10%;
+    text-align: center;
   }
   .banner{
   height: 275px;
@@ -176,12 +172,17 @@ font-weight: 550;
   border: 1px solid #ced4da;
   }
   .subscribebtn {
-  margin-left: 115px;
+ margin-left: 30%;
   background-color: #26B7D4;
   background-color: #26B7D4;
   margin-top: 10px;
   width: 130px;
   }
+
+  .social-media-btns{
+    margin-left: 50%;
+  }
+
 }
 
 
@@ -234,12 +235,7 @@ box-sizing: border-box;
 .sign-up-content{
 font-size: 15px;
 }
-.logo-image img {
-max-width: none;
-margin: 0;
-top: 4px;
-height: 1%;
-}
+
 .peze-logo-paragragh{
   margin-top: 10px;
       margin-top: -15px;
@@ -330,9 +326,7 @@ color: #fff;
 text-align: center;
 padding: 50px;
 }
-/*#pezesha-description{
-background: #fff;
-}*/
+
 
 /* home page description  */
 
@@ -416,6 +410,3 @@ color: #fff;
 background-color: #17a2b8;
 
 }
-
-
-

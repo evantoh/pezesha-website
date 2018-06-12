@@ -6,6 +6,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
+    text-align: center;
   }
   .investment-img{
     margin-top: 37px;
@@ -144,12 +145,6 @@ top: 4px;
     background-position: center; 
     background: #f8f9fa;
     margin-top: 1%
-}
-p {
-margin-top: 0;
-margin-bottom: 1rem;
-text-align: center;
-font-size: 20px;
 }
 .mfi-data p{
   margin: 0%;

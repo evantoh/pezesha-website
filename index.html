@@ -10,8 +10,13 @@
     
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Begin MailChimp Signup Form -->
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+
     <link href="css/navbar-footer.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+
     <style>
       body{
       font-family:"Helvetica";
@@ -20,6 +25,9 @@
     a:hover{
       text-decoration: none;
       color: #fff;
+      }
+      a{
+        color: #fff;
       }
     </style>
   </head>
@@ -231,38 +239,56 @@
           </div>
           <div class="col-md-2">  
             <p>hello@pezesha.com</p>
-             <p><a class="footer-social-fb" href="www.facebook.com" class="fab fa-facebook-f"></a></p>
-             <p> <a class="footer-social-twitter"href="www.twitter.com" class="fab fa-twitter"></a></p>
-            <p><a href="#">Terms of Use</a></p>
-            <p><a href="#">Privacy policy</a></p>
+            <a href="https://www.facebook.com/Pezesha/"><i style="font-size:24px;" class="fa 
+              social-media-btns">&#xf082;</i></a>
+              <br>
+            <a href="https://twitter.com/search?q=pezesha&src=typd"><i style="font-size:24px" 
+              class="fa social-media-btns">&#xf174;</i>
+            </a>
+            <p><a href="privacy-policy.html">Privacy policy</a></p>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-3" id="subscription">
-            <p>Subscribe to our newsletter</p>
-            <form class="form-inline" action="/action_page.php">  
-              <div class="form-group">  
-                <input type="email" placeholder="Enter your email"class="form-control" id="email">
-              </div>
-              <button type="submit" class="btn btn-default subscribebtn">Subscribe</button>
-            </form>
+            <p style="text-align:center;">Subscribe to our newsletter</p>
+            <div id="mc_embed_signup">
+              <form action="https://evantoh.us18.list-manage.com/subscribe/
+                post?u=d14ae4893a8c45979624fa42d&amp;id=0eb97c08b8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <div class="subscription-btn">
+                    <input type="email" value="" name="EMAIL" class="required email" placeholder="Enter your email" id="mce-EMAIL" style="margin-left: 22%;">
+                  </div>
+
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div> 
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                     name="b_d14ae4893a8c45979624fa42d_0eb97c08b8" tabindex="-1" value="">
+                  </div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" 
+                    id="mc-embedded-subscribe" class="btn btn-default subscribebtn">
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
           <div class="col-md-1"></div>
         </div>
-        </div>  
-        <div align="center" class="socialbtns"> 
-          
-          <div class="container"> 
-            <p class="m-0 text-center text-white">Copyright &copy; pezesha 2018</p>
-          </div>
-        </div> 
+      </div>  
+      <div align="center" class="socialbtns">  
+      <div class="container"> 
+        <p class="m-0 text-center text-white">Copyright &copy; pezesha 2018</p>
       </div>
+      </div>  
     </footer>
     
     <!-- Bootstrap core JavaScript -->
     <script src="assets/jquery/jquery.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="assets/scripts/index.js"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'>
+    </script>
+    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);
+    </script>
 
   </body>
 </html>
